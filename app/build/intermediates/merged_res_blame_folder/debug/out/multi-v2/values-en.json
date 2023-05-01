@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Knowledge\\Git\\source-3988b4e\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "D:\\Knowledge\\Projects\\MavenRepository\\caches\\transforms-2\\files-2.1\\5a5751c6b1bb57928663c80d033dd64e\\jetified-dkplayer-ui-3.3.5\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,219,297,348,399,452,507",
+                        "endColumns": "67,95,77,50,50,52,54,133",
+                        "endOffsets": "118,214,292,343,394,447,502,636"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "227,295,391,469,520,571,624,679",
+                        "endColumns": "67,95,77,50,50,52,54,133",
+                        "endOffsets": "290,386,464,515,566,619,674,808"
+                    }
+                },
+                {
+                    "source": "D:\\Knowledge\\Projects\\MavenRepository\\caches\\transforms-2\\files-2.1\\e375d446f04504f2b162ee4e5a9a7e9d\\jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,111,174",
+                        "endColumns": "55,62,52",
+                        "endOffsets": "106,169,222"
+                    }
+                }
+            ]
+        }
+    ]
+}

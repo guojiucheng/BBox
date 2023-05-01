@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/e375d446f04504f2b162ee4e5a9a7e9d/jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/e375d446f04504f2b162ee4e5a9a7e9d/jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/e375d446f04504f2b162ee4e5a9a7e9d/jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx/res" />
+      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/e375d446f04504f2b162ee4e5a9a7e9d/jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.45-androidx/d5a434ec7a132fe55bc578166945f60a441f721f/BaseRecyclerViewAdapterHelper-2.9.45-androidx-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.45-androidx/92eb17dea87ccd1c8d8825cf4faef2c22fee1139/BaseRecyclerViewAdapterHelper-2.9.45-androidx-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

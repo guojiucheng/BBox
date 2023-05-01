@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TVBox.iml" filepath="$PROJECT_DIR$/.idea/modules/TVBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TVBox.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TVBox.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/TVBox.player.iml" filepath="$PROJECT_DIR$/.idea/modules/player/TVBox.player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.iml" filepath="$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.iml" />
+    </modules>
+  </component>
+</project>

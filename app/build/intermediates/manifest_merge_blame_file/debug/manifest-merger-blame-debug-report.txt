@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.tvbox.osc.bbox"
+4    android:versionCode="1"
+5    android:versionName="20230302-0924" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.software.leanback"
+12-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:6:9-49
+13        android:required="false" />
+13-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature
+14-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.touchscreen"
+15-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:9:9-52
+16        android:required="false" />
+16-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:10:9-33
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:12:5-67
+18-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:14:5-76
+20-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:14:22-73
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+21-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:15:5-86
+21-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:15:22-83
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:16:5-80
+22-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:16:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:17:5-81
+23-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:17:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:18:5-79
+24-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+25-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:19:5-83
+25-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:19:22-80
+26    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+26-->[com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:29:5-84
+26-->[com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:29:22-81
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-75
+27-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:22-72
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-68
+28-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-65
+29    <uses-permission android:name="android.permission.GET_TASKS" />
+29-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-68
+29-->[:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:22-65
+30
+31    <application
+31-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:21:5-110:19
+32        android:name="com.github.tvbox.osc.bbox.base.App"
+32-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:22:9-33
+33        android:allowBackup="true"
+33-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:23:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+35        android:banner="@drawable/app_banner"
+35-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:24:9-46
+36        android:configChanges="orientation|keyboardHidden|screenSize"
+36-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:25:9-70
+37        android:debuggable="true"
+38        android:hardwareAccelerated="true"
+38-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:26:9-43
+39        android:icon="@drawable/app_icon"
+39-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:27:9-42
+40        android:label="@string/app_name"
+40-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:28:9-41
+41        android:largeHeap="true"
+41-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:29:9-33
+42        android:networkSecurityConfig="@xml/network_security_config"
+42-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:30:9-69
+43        android:supportsRtl="true"
+43-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:31:9-35
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme.NoActionBar"
+45-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:32:9-52
+46        android:usesCleartextTraffic="true" >
+46-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:33:9-44
+47        <activity
+47-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:35:9-44:20
+48            android:name="com.github.tvbox.osc.bbox.ui.activity.HomeActivity"
+48-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:36:13-53
+49            android:screenOrientation="sensorLandscape" >
+49-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:37:13-56
+50            <intent-filter>
+50-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:38:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:39:17-69
+51-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:39:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:41:17-77
+53-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:41:27-74
+54                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+54-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:42:17-86
+54-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:42:27-83
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:46:9-48:59
+58            android:name="com.github.tvbox.osc.bbox.ui.activity.LivePlayActivity"
+58-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:47:13-57
+59            android:screenOrientation="sensorLandscape" />
+59-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:48:13-56
+60        <activity
+60-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:49:9-52:59
+61            android:name="com.github.tvbox.osc.bbox.ui.activity.DetailActivity"
+61-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:50:13-55
+62            android:configChanges="orientation|screenSize"
+62-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:51:13-59
+63            android:screenOrientation="sensorLandscape" />
+63-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:52:13-56
+64        <activity
+64-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:53:9-56:59
+65            android:name="com.github.tvbox.osc.bbox.ui.activity.PlayActivity"
+65-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:54:13-53
+66            android:configChanges="orientation|screenSize"
+66-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:55:13-59
+67            android:screenOrientation="sensorLandscape" />
+67-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:56:13-56
+68        <activity
+68-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:57:9-59:59
+69            android:name="com.github.tvbox.osc.bbox.ui.activity.PushActivity"
+69-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:58:13-53
+70            android:screenOrientation="sensorLandscape" />
+70-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:59:13-56
+71        <activity
+71-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:60:9-62:59
+72            android:name="com.github.tvbox.osc.bbox.ui.activity.SearchActivity"
+72-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:61:13-55
+73            android:screenOrientation="sensorLandscape" />
+73-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:62:13-56
+74        <activity
+74-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:63:9-65:59
+75            android:name="com.github.tvbox.osc.bbox.ui.activity.FastSearchActivity"
+75-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:64:13-59
+76            android:screenOrientation="sensorLandscape" />
+76-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:65:13-56
+77        <activity
+77-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:66:9-68:59
+78            android:name="com.github.tvbox.osc.bbox.ui.activity.SettingActivity"
+78-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:67:13-56
+79            android:screenOrientation="sensorLandscape" />
+79-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:68:13-56
+80        <activity
+80-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:69:9-71:59
+81            android:name="com.github.tvbox.osc.bbox.ui.activity.HistoryActivity"
+81-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:70:13-56
+82            android:screenOrientation="sensorLandscape" />
+82-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:71:13-56
+83        <activity
+83-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:72:9-74:59
+84            android:name="com.github.tvbox.osc.bbox.ui.activity.CollectActivity"
+84-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:73:13-56
+85            android:screenOrientation="sensorLandscape" />
+85-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:74:13-56
+86
+87        <receiver android:name="com.github.tvbox.osc.bbox.receiver.SearchReceiver" >
+87-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:76:9-80:20
+87-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:76:19-58
+88            <intent-filter>
+88-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:77:13-79:29
+89                <action android:name="android.content.movie.search.Action" />
+89-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:78:17-78
+89-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:78:25-75
+90            </intent-filter>
+91        </receiver>
+92        <receiver android:name="com.github.tvbox.osc.bbox.receiver.CustomWebReceiver" >
+92-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:81:9-85:20
+92-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:81:19-61
+93            <intent-filter>
+93-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:82:13-84:29
+94                <action android:name="android.content.movie.custom.web.Action" />
+94-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:83:17-82
+94-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:83:25-79
+95            </intent-filter>
+96        </receiver>
+97
+98        <provider
+99            android:name="androidx.core.content.FileProvider"
+99-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:88:13-62
+100            android:authorities="com.github.tvbox.osc.bbox.fileprovider"
+100-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:89:13-64
+101            android:exported="false"
+101-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:90:13-37
+102            android:grantUriPermissions="true" >
+102-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:91:13-47
+103            <meta-data
+103-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:92:13-94:54
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:93:17-67
+105                android:resource="@xml/file_paths" />
+105-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:94:17-51
+106        </provider>
+107
+108        <meta-data
+108-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:97:9-99:36
+109            android:name="design_width_in_dp"
+109-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:98:13-46
+110            android:value="1280" />
+110-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:99:13-33
+111        <meta-data
+111-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:100:9-102:35
+112            android:name="design_height_in_dp"
+112-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:101:13-47
+113            android:value="720" />
+113-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:102:13-32
+114        <meta-data
+114-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:104:9-106:38
+115            android:name="xwalk_enable_download_mode"
+115-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:105:13-54
+116            android:value="enable" />
+116-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:106:13-35
+117        <meta-data
+117-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:107:9-109:39
+118            android:name="xwalk_verify"
+118-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:108:13-40
+119            android:value="disable" />
+119-->D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:109:13-36
+120
+121        <provider
+121-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+122            android:name="com.squareup.picasso.PicassoProvider"
+122-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+123            android:authorities="com.github.tvbox.osc.bbox.com.squareup.picasso"
+123-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+124            android:exported="false" />
+124-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+125
+126        <service
+126-->[androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+127            android:name="androidx.room.MultiInstanceInvalidationService"
+127-->[androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+128            android:directBootAware="true"
+128-->[androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+129            android:exported="false" />
+129-->[androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+130
+131        <provider
+131-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:12:9-16:43
+132            android:name="me.jessyan.autosize.InitProvider"
+132-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:13:13-60
+133            android:authorities="com.github.tvbox.osc.bbox.autosize-init-provider"
+133-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:14:13-74
+134            android:exported="false"
+134-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:15:13-37
+135            android:multiprocess="true" />
+135-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:16:13-40
+136
+137        <activity
+137-->[com.github.hedzr:android-file-chooser:v1.2.0-final] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c6e55ac5d0595ed9297528eff46debc4\jetified-android-file-chooser-v1.2.0-final\AndroidManifest.xml:12:9-15:56
+138            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+138-->[com.github.hedzr:android-file-chooser:v1.2.0-final] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c6e55ac5d0595ed9297528eff46debc4\jetified-android-file-chooser-v1.2.0-final\AndroidManifest.xml:13:13-92
+139            android:label=""
+139-->[com.github.hedzr:android-file-chooser:v1.2.0-final] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c6e55ac5d0595ed9297528eff46debc4\jetified-android-file-chooser-v1.2.0-final\AndroidManifest.xml:14:13-29
+140            android:theme="@style/Theme.Transparent" />
+140-->[com.github.hedzr:android-file-chooser:v1.2.0-final] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c6e55ac5d0595ed9297528eff46debc4\jetified-android-file-chooser-v1.2.0-final\AndroidManifest.xml:15:13-53
+141
+142        <provider
+142-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+143            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+144            android:authorities="com.github.tvbox.osc.bbox.lifecycle-process"
+144-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+145            android:exported="false"
+145-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+146            android:multiprocess="true" />
+146-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+147    </application>
+148
+149</manifest>

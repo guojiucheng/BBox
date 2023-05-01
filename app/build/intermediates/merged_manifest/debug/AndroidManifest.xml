@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.tvbox.osc.bbox"
+    android:versionCode="1"
+    android:versionName="20230302-0924" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.github.tvbox.osc.bbox.base.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:banner="@drawable/app_banner"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.HomeActivity"
+            android:screenOrientation="sensorLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.LivePlayActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.DetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.PlayActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.PushActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.SearchActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.FastSearchActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.SettingActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.HistoryActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.github.tvbox.osc.bbox.ui.activity.CollectActivity"
+            android:screenOrientation="sensorLandscape" />
+
+        <receiver android:name="com.github.tvbox.osc.bbox.receiver.SearchReceiver" >
+            <intent-filter>
+                <action android:name="android.content.movie.search.Action" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.github.tvbox.osc.bbox.receiver.CustomWebReceiver" >
+            <intent-filter>
+                <action android:name="android.content.movie.custom.web.Action" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.github.tvbox.osc.bbox.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="1280" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="720" />
+        <meta-data
+            android:name="xwalk_enable_download_mode"
+            android:value="enable" />
+        <meta-data
+            android:name="xwalk_verify"
+            android:value="disable" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.github.tvbox.osc.bbox.com.squareup.picasso"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="me.jessyan.autosize.InitProvider"
+            android:authorities="com.github.tvbox.osc.bbox.autosize-init-provider"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+            android:label=""
+            android:theme="@style/Theme.Transparent" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.github.tvbox.osc.bbox.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

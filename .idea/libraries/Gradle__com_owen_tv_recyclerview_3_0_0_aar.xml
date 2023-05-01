@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.owen:tv-recyclerview:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/121ee839389410160ecb68183dd85746/jetified-tv-recyclerview-3.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/121ee839389410160ecb68183dd85746/jetified-tv-recyclerview-3.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/121ee839389410160ecb68183dd85746/jetified-tv-recyclerview-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.owen/tv-recyclerview/3.0.0/a823b5e849a26d53ee61dde9fb0dbf2b3b831ef8/tv-recyclerview-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.owen/tv-recyclerview/3.0.0/3855dca4b2d3658bd8b14bbf9497c34aab72fd9d/tv-recyclerview-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

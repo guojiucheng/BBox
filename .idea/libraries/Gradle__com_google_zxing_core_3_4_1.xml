@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.zxing:core:3.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.google.zxing/core/3.4.1/1869da97e9b2b60b5ff2fcaf55899174b93ae25d/core-3.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.google.zxing/core/3.4.1/919cbf27eefc15c8b0d1de842bdffcc2c1c0e963/core-3.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.google.zxing/core/3.4.1/cb2b657bad6c933cef09fa57bfe79fb6867d929e/core-3.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
