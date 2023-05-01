@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="accessibility_date_picker_month">"Μήνας"</string>
+    <string name="accessibility_date_picker_week">"Εβδομάδα"</string>
+    <string name="accessibility_date_picker_year">"Έτος"</string>
+    <string name="accessibility_datetime_picker_date">"Ημερομηνία"</string>
+    <string name="accessibility_datetime_picker_time">"Ώρα"</string>
+    <string name="accessibility_time_picker_ampm">"Π.Μ./Μ.Μ."</string>
+    <string name="accessibility_time_picker_hour">"Ώρα"</string>
+    <string name="accessibility_time_picker_milli">"Χιλιοστό του δευτερολέπτου"</string>
+    <string name="accessibility_time_picker_minute">"Λεπτό"</string>
+    <string name="accessibility_time_picker_second">"Δευτερόλεπτο"</string>
+    <string name="actionbar_share">"Κοινή χρήση"</string>
+    <string name="actionbar_textselection_title">"Επιλογή κειμένου"</string>
+    <string name="actionbar_web_search">"Αναζήτηση στον Ιστό"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Διαθέσιμες προτάσεις"</string>
+    <string name="autofill_popup_content_description">"Εμφάνιση αναδυόμενου παραθύρου αυτόματης συμπλήρωσης"</string>
+    <string name="color_picker_button_black">"Μαύρο"</string>
+    <string name="color_picker_button_blue">"Μπλε"</string>
+    <string name="color_picker_button_cancel">"Ακύρωση"</string>
+    <string name="color_picker_button_cyan">"Κυανό"</string>
+    <string name="color_picker_button_green">"Πράσινο"</string>
+    <string name="color_picker_button_magenta">"Ματζέντα"</string>
+    <string name="color_picker_button_more">"Περισσότερα"</string>
+    <string name="color_picker_button_red">"Κόκκινο"</string>
+    <string name="color_picker_button_set">"Ορισμός"</string>
+    <string name="color_picker_button_white">"Λευκό"</string>
+    <string name="color_picker_button_yellow">"Κίτρινο"</string>
+    <string name="color_picker_dialog_title">"Επιλογή χρώματος"</string>
+    <string name="color_picker_hue">"Απόχρωση"</string>
+    <string name="color_picker_saturation">"Κορεσμός"</string>
+    <string name="color_picker_value">"Τιμή"</string>
+    <string name="copy_to_clipboard_failure_message">"Αποτυχία αντιγραφής στο πρόχειρο"</string>
+    <string name="date_picker_dialog_clear">"Διαγραφή"</string>
+    <string name="date_picker_dialog_other_button_label">"Άλλο"</string>
+    <string name="date_picker_dialog_set">"Ορισμός"</string>
+    <string name="date_picker_dialog_title">"Ορισμός ημερομηνίας"</string>
+    <string name="date_time_picker_dialog_title">"Ορισμός ημερομηνίας και ώρας"</string>
+    <string name="low_memory_error">"Δεν ήταν δυνατή η ολοκλήρωση της προηγούμενης λειτουργίας λόγω χαμηλού επιπέδου μνήμης"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Δυστυχώς, αυτό το βίντεο δεν είναι έγκυρο για ροή σε αυτήν τη συσκευή."</string>
+    <string name="media_player_error_text_unknown">"Δυστυχώς, δεν είναι δυνατή η αναπαραγωγή αυτού του βίντεο."</string>
+    <string name="media_player_error_title">"Αδύνατη αναπαραγωγή βίντεο"</string>
+    <string name="media_player_loading_video">"Φόρτωση βίντεο"</string>
+    <string name="month_picker_dialog_title">"Ορισμός μήνα"</string>
+    <string name="opening_file_error">"Αποτυχ. ανοίγμ. επιλεγμ. αρχείου"</string>
+    <string name="password_generation_popup_content_description">"Εμφάνιση αναδυόμενου παραθύρου δημιουργίας κωδικού πρόσβασης"</string>
+    <string name="profiler_error_toast">"Αποτυχία έναρξης προγράμματος προφίλ"</string>
+    <string name="profiler_no_storage_toast">"Δεν είναι δυνατή η έναρξη του προγράμματος προφίλ επειδή ο εξωτερικός αποθηκευτικός χώρος δεν είναι έτοιμος"</string>
+    <string name="profiler_started_toast">"Η λειτουργία του προγράμματος προφίλ έχει ξεκινήσει"</string>
+    <string name="profiler_stopped_toast">"Η λειτουργία του προγράμματος προφίλ ολοκληρώθηκε. Τα αποτελέσματα βρίσκονται στο αρχείο %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"π.μ."</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"μ.μ."</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Ορισμός χρόνου"</string>
+    <string name="updating_chrome">"Ενημέρωση του Chrome…"</string>
+    <string name="week_picker_dialog_title">"Ορισμός εβδομάδας"</string>
+</resources>

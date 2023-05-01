@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigați în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișați tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alegeți o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Căutați…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ștergeți interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Căutați"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimiteți interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimiteți la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimiteți folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrângeți"</string>
+    <string name="accessibility_date_picker_month">"Lună"</string>
+    <string name="accessibility_date_picker_week">"Săptămână"</string>
+    <string name="accessibility_date_picker_year">"An"</string>
+    <string name="accessibility_datetime_picker_date">"Data"</string>
+    <string name="accessibility_datetime_picker_time">"Oră"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Oră"</string>
+    <string name="accessibility_time_picker_milli">"Milisecundă"</string>
+    <string name="accessibility_time_picker_minute">"Minut"</string>
+    <string name="accessibility_time_picker_second">"Secundă"</string>
+    <string name="actionbar_share">"Trimite"</string>
+    <string name="actionbar_textselection_title">"Selectarea textului"</string>
+    <string name="actionbar_web_search">"Căutare pe web"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Sugestii disponibile"</string>
+    <string name="autofill_popup_content_description">"Fereastra pop-up pentru completarea automată este afișată"</string>
+    <string name="color_picker_button_black">"Negru"</string>
+    <string name="color_picker_button_blue">"Albastru"</string>
+    <string name="color_picker_button_cancel">"Anulează"</string>
+    <string name="color_picker_button_cyan">"Cyan"</string>
+    <string name="color_picker_button_green">"Verde"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Mai multe"</string>
+    <string name="color_picker_button_red">"Roșu"</string>
+    <string name="color_picker_button_set">"Setează"</string>
+    <string name="color_picker_button_white">"Alb"</string>
+    <string name="color_picker_button_yellow">"Galben"</string>
+    <string name="color_picker_dialog_title">"Selectați culoarea"</string>
+    <string name="color_picker_hue">"Nuanță"</string>
+    <string name="color_picker_saturation">"Saturație"</string>
+    <string name="color_picker_value">"Valoare"</string>
+    <string name="copy_to_clipboard_failure_message">"Nu s-a copiat în clipboard"</string>
+    <string name="date_picker_dialog_clear">"Ștergeți"</string>
+    <string name="date_picker_dialog_other_button_label">"Altele"</string>
+    <string name="date_picker_dialog_set">"Setează"</string>
+    <string name="date_picker_dialog_title">"Setați data"</string>
+    <string name="date_time_picker_dialog_title">"Setați data și ora"</string>
+    <string name="low_memory_error">"Operația anterioară nu se poate finaliza, din cauza memoriei insuficiente"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Ne pare rău, acest videoclip nu este valid pentru transmitere în flux pe acest dispozitiv."</string>
+    <string name="media_player_error_text_unknown">"Ne pare rău, acest videoclip nu poate fi redat."</string>
+    <string name="media_player_error_title">"Nu se poate reda videoclipul"</string>
+    <string name="media_player_loading_video">"Se încarcă video"</string>
+    <string name="month_picker_dialog_title">"Setați luna"</string>
+    <string name="opening_file_error">"Fișier. select. nu s-a deschis"</string>
+    <string name="password_generation_popup_content_description">"Fereastra pop-up pentru generarea parolelor este afișată"</string>
+    <string name="profiler_error_toast">"Instrumentul de creare a profilului nu a putut porni"</string>
+    <string name="profiler_no_storage_toast">"Instrumentul de creare a profilului nu poate porni, deoarece stocarea externă nu este gata"</string>
+    <string name="profiler_started_toast">"Instrumentul de creare a profilului a pornit"</string>
+    <string name="profiler_stopped_toast">"Instrumentul de creare a profilului a finalizat operația. Rezultatele apar în %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Căutați"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"a.m."</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"p.m."</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Setați ora"</string>
+    <string name="updating_chrome">"Se actualizează Chrome..."</string>
+    <string name="week_picker_dialog_title">"Setați săptămâna"</string>
+</resources>

@@ -44,8 +44,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.multidex:multidex-instrumentation:2.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: D./Knowledge/Git/source-3988b4e/app/libs/commons-lang3-3.12.0.jar" level="project" />
-    <orderEntry type="library" name="Gradle: D./Knowledge/Git/source-3988b4e/app/libs/thunder.jar" level="project" />
+    <orderEntry type="library" name="Gradle: D./Knowledge/Git/BBox/app/libs/commons-lang3-3.12.0.jar" level="project" />
+    <orderEntry type="library" name="Gradle: D./Knowledge/Git/BBox/app/libs/thunder.jar" level="project" />
     <orderEntry type="library" name="Gradle: org.nanohttpd:nanohttpd:2.3.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.zxing:core:3.4.1" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />

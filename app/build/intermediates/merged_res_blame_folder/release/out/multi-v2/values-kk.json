@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Knowledge\\Git\\source-3988b4e\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-kk\\values-kk.xml",
+            "outputFile": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
                     "source": "D:\\Knowledge\\Projects\\MavenRepository\\caches\\transforms-2\\files-2.1\\7160c6b9fdb2bc1e41d9bd715d01fdc2\\appcompat-1.3.0\\res\\values-kk\\values-kk.xml",

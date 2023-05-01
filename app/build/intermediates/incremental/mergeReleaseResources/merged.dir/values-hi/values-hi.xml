@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="accessibility_date_picker_month">"माह"</string>
+    <string name="accessibility_date_picker_week">"सप्ताह"</string>
+    <string name="accessibility_date_picker_year">"वर्ष"</string>
+    <string name="accessibility_datetime_picker_date">"दिनांक"</string>
+    <string name="accessibility_datetime_picker_time">"समय"</string>
+    <string name="accessibility_time_picker_ampm">"पूर्वाह्न/अपराह्न"</string>
+    <string name="accessibility_time_picker_hour">"घंटा"</string>
+    <string name="accessibility_time_picker_milli">"मिलीसेकंड"</string>
+    <string name="accessibility_time_picker_minute">"मिनट"</string>
+    <string name="accessibility_time_picker_second">"सेकंड"</string>
+    <string name="actionbar_share">"साझा करें"</string>
+    <string name="actionbar_textselection_title">"लेख चयन"</string>
+    <string name="actionbar_web_search">"वेब खोज"</string>
+    <string name="autofill_keyboard_accessory_content_description">"सुझाव उपलब्ध हैं"</string>
+    <string name="autofill_popup_content_description">"ऑटोमैटिक भरने वाला पॉपअप दिखाया जा रहा है"</string>
+    <string name="color_picker_button_black">"काला"</string>
+    <string name="color_picker_button_blue">"नीला"</string>
+    <string name="color_picker_button_cancel">"अभी नहीं"</string>
+    <string name="color_picker_button_cyan">"स्यान"</string>
+    <string name="color_picker_button_green">"हरा"</string>
+    <string name="color_picker_button_magenta">"मैजेंटा"</string>
+    <string name="color_picker_button_more">"अधिक"</string>
+    <string name="color_picker_button_red">"लाल"</string>
+    <string name="color_picker_button_set">"सेट करें"</string>
+    <string name="color_picker_button_white">"सफ़ेद"</string>
+    <string name="color_picker_button_yellow">"पीला"</string>
+    <string name="color_picker_dialog_title">"रंग चुनें"</string>
+    <string name="color_picker_hue">"रंग"</string>
+    <string name="color_picker_saturation">"संतृप्तता"</string>
+    <string name="color_picker_value">"मान"</string>
+    <string name="copy_to_clipboard_failure_message">"क्लिपबोर्ड पर प्रतिलिपि बनाने में विफल रहा"</string>
+    <string name="date_picker_dialog_clear">"साफ़ करें"</string>
+    <string name="date_picker_dialog_other_button_label">"अन्य"</string>
+    <string name="date_picker_dialog_set">"सेट करें"</string>
+    <string name="date_picker_dialog_title">"दिनांक सेट करें"</string>
+    <string name="date_time_picker_dialog_title">"दिनांक और समय सेट करें"</string>
+    <string name="low_memory_error">"कम स्‍मृति के कारण पिछली कार्रवाई पूरी करने में असमर्थ"</string>
+    <string name="media_player_error_button">"ठीक"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"क्षमा करें, यह वीडियो इस डिवाइस पर स्‍ट्रीम करने के लिए मान्य नहीं है."</string>
+    <string name="media_player_error_text_unknown">"क्षमा करें, यह वीडियो नहीं चलाया जा सकता."</string>
+    <string name="media_player_error_title">"वीडियो नहीं चलाया जा सकता"</string>
+    <string name="media_player_loading_video">"वीडियो लोड हो रहा है"</string>
+    <string name="month_picker_dialog_title">"माह सेट करें"</string>
+    <string name="opening_file_error">"चयनित फ़ाइल खोलने में विफल"</string>
+    <string name="password_generation_popup_content_description">"पासवर्ड जेनरेशन पॉपअप दिखाया जा रहा है"</string>
+    <string name="profiler_error_toast">"प्रोफ़ाइलर प्रारंभ करने में विफल"</string>
+    <string name="profiler_no_storage_toast">"प्रोफ़ाइलर प्रारंभ नहीं हो सकता क्‍योंकि बाहरी मेमोरी तैयार नहीं है"</string>
+    <string name="profiler_started_toast">"प्रोफ़ाइलर प्रारंभ किया गया"</string>
+    <string name="profiler_stopped_toast">"प्रोफ़ाइलर पूर्ण. परिणाम %1$s में हैं."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"पूर्वाह्न"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"अपराह्न"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"समय सेट करें"</string>
+    <string name="updating_chrome">"Chrome अपडेट किया जा रहा है..."</string>
+    <string name="week_picker_dialog_title">"सप्ताह सेट करें"</string>
+</resources>

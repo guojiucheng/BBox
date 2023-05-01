@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="accessibility_date_picker_month">"เดือน"</string>
+    <string name="accessibility_date_picker_week">"สัปดาห์"</string>
+    <string name="accessibility_date_picker_year">"ปี"</string>
+    <string name="accessibility_datetime_picker_date">"วันที่"</string>
+    <string name="accessibility_datetime_picker_time">"เวลา"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"ชั่วโมง"</string>
+    <string name="accessibility_time_picker_milli">"มิลลิวินาที"</string>
+    <string name="accessibility_time_picker_minute">"นาที"</string>
+    <string name="accessibility_time_picker_second">"วินาที"</string>
+    <string name="actionbar_share">"แชร์"</string>
+    <string name="actionbar_textselection_title">"การเลือกข้อความ"</string>
+    <string name="actionbar_web_search">"ค้นเว็บ"</string>
+    <string name="autofill_keyboard_accessory_content_description">"มีคำแนะนำ"</string>
+    <string name="autofill_popup_content_description">"กำลังแสดงป๊อปอัปการป้อนข้อความอัตโนมัติ"</string>
+    <string name="color_picker_button_black">"สีดำ"</string>
+    <string name="color_picker_button_blue">"สีน้ำเงิน"</string>
+    <string name="color_picker_button_cancel">"ยกเลิก"</string>
+    <string name="color_picker_button_cyan">"สีฟ้า"</string>
+    <string name="color_picker_button_green">"สีเขียว"</string>
+    <string name="color_picker_button_magenta">"สีม่วงแดง"</string>
+    <string name="color_picker_button_more">"เพิ่มเติม"</string>
+    <string name="color_picker_button_red">"สีแดง"</string>
+    <string name="color_picker_button_set">"ตั้งค่า"</string>
+    <string name="color_picker_button_white">"สีขาว"</string>
+    <string name="color_picker_button_yellow">"สีเหลือง"</string>
+    <string name="color_picker_dialog_title">"เลือกสี"</string>
+    <string name="color_picker_hue">"โทนสี"</string>
+    <string name="color_picker_saturation">"ความอิ่มตัวของสี"</string>
+    <string name="color_picker_value">"ราคา"</string>
+    <string name="copy_to_clipboard_failure_message">"ไม่สามารถคัดลอกไปยังคลิปบอร์ด"</string>
+    <string name="date_picker_dialog_clear">"ล้าง"</string>
+    <string name="date_picker_dialog_other_button_label">"อื่นๆ"</string>
+    <string name="date_picker_dialog_set">"ตั้งค่า"</string>
+    <string name="date_picker_dialog_title">"ตั้งวันที่"</string>
+    <string name="date_time_picker_dialog_title">"ตั้งวันที่และเวลา"</string>
+    <string name="low_memory_error">"ไม่สามารถดำเนินการก่อนหน้าให้สิ้นสุดได้เพราะหน่วยความจำเหลือน้อย"</string>
+    <string name="media_player_error_button">"ตกลง"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"ขออภัย ไม่สามารถสตรีมวิดีโอไปยังอุปกรณ์นี้"</string>
+    <string name="media_player_error_text_unknown">"ขออภัย วิดีโอนี้เล่นไม่ได้"</string>
+    <string name="media_player_error_title">"ไม่สามารถเล่นวิดีโอ"</string>
+    <string name="media_player_loading_video">"กำลังโหลดวิดีโอ"</string>
+    <string name="month_picker_dialog_title">"ตั้งเดือน"</string>
+    <string name="opening_file_error">"ไม่สามารถเปิดไฟล์ที่เลือก"</string>
+    <string name="password_generation_popup_content_description">"กำลังแสดงป๊อปอัปการสร้างรหัสผ่าน"</string>
+    <string name="profiler_error_toast">"ไม่สามารถเริ่มโปรแกรมโปรไฟล์เลอร์"</string>
+    <string name="profiler_no_storage_toast">"ไม่สามารถเริ่มโปรแกรมโปรไฟล์เลอร์ได้เนื่องจากที่จัดเก็บข้อมูลภายนอกไม่พร้อมใช้งาน"</string>
+    <string name="profiler_started_toast">"เริ่มโปรแกรมโปรไฟล์เลอร์แล้ว"</string>
+    <string name="profiler_stopped_toast">"โปรแกรมโปรไฟล์เลอร์ดำเนินการเสร็จแล้ว ผลลัพธ์อยู่ใน %1$s"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">"."</string>
+    <string name="time_picker_dialog_minute_second_separator">"."</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"ตั้งเวลา"</string>
+    <string name="updating_chrome">"กำลังอัปเดต Chrome..."</string>
+    <string name="week_picker_dialog_title">"ตั้งสัปดาห์"</string>
+</resources>

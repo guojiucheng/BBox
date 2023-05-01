@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="accessibility_date_picker_month">"Bulan"</string>
+    <string name="accessibility_date_picker_week">"Minggu"</string>
+    <string name="accessibility_date_picker_year">"Tahun"</string>
+    <string name="accessibility_datetime_picker_date">"Tanggal"</string>
+    <string name="accessibility_datetime_picker_time">"Waktu"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Jam"</string>
+    <string name="accessibility_time_picker_milli">"Milidetik"</string>
+    <string name="accessibility_time_picker_minute">"Menit"</string>
+    <string name="accessibility_time_picker_second">"Detik"</string>
+    <string name="actionbar_share">"Bagikan"</string>
+    <string name="actionbar_textselection_title">"Pemilihan teks"</string>
+    <string name="actionbar_web_search">"Penelusuran web"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Saran yang tersedia"</string>
+    <string name="autofill_popup_content_description">"Menampilkan munculan isi otomatis"</string>
+    <string name="choose_file">Pilih file</string>
+    <string name="color_picker_button_black">"Hitam"</string>
+    <string name="color_picker_button_blue">"Biru"</string>
+    <string name="color_picker_button_cancel">"Batal"</string>
+    <string name="color_picker_button_cyan">"Sian"</string>
+    <string name="color_picker_button_green">"Hijau"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Lainnya"</string>
+    <string name="color_picker_button_red">"Merah"</string>
+    <string name="color_picker_button_set">"Setel"</string>
+    <string name="color_picker_button_white">"Putih"</string>
+    <string name="color_picker_button_yellow">"Kuning"</string>
+    <string name="color_picker_dialog_title">"Pilih warna"</string>
+    <string name="color_picker_hue">"Rona"</string>
+    <string name="color_picker_saturation">"Saturasi"</string>
+    <string name="color_picker_value">"Nilai"</string>
+    <string name="copy_to_clipboard_failure_message">"Gagal menyalin ke papan klip"</string>
+    <string name="date_picker_dialog_clear">"Hapus"</string>
+    <string name="date_picker_dialog_other_button_label">"Lainnya"</string>
+    <string name="date_picker_dialog_set">"Setel"</string>
+    <string name="date_picker_dialog_title">"Setel tanggal"</string>
+    <string name="date_time_picker_dialog_title">"Setel tanggal dan waktu"</string>
+    <string name="empty_directory">Direktori Kosong</string>
+    <string name="error_selecting_file">Gagal memilih File</string>
+    <string name="internal_storage">Penyimpanan internal</string>
+    <string name="low_memory_error">"Tidak dapat menyelesaikan operasi sebelumnya karena sisa memori sedikit"</string>
+    <string name="media_player_error_button">"Oke"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Maaf, video ini tidak dapat di-streaming ke perangkat ini."</string>
+    <string name="media_player_error_text_unknown">"Maaf, video tidak dapat diputar."</string>
+    <string name="media_player_error_title">"Tidak dapat memutar video"</string>
+    <string name="media_player_loading_video">"Memuat video"</string>
+    <string name="month_picker_dialog_title">"Setel bulan"</string>
+    <string name="opening_file_error">"Gagal membuka file terpilih"</string>
+    <string name="password_generation_popup_content_description">"Menampilkan munculan pembuatan sandi"</string>
+    <string name="profiler_error_toast">"Gagal memulai profiler"</string>
+    <string name="profiler_no_storage_toast">"Tidak dapat memulai profiler karena penyimpanan eksternal tidak siap"</string>
+    <string name="profiler_started_toast">"Profiler dimulai"</string>
+    <string name="profiler_stopped_toast">"Profiler selesai. Hasil berupa %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Telusuri"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="storage_removed">Penyimpanan dilepaskan atau dicabut</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">"."</string>
+    <string name="time_picker_dialog_minute_second_separator">"."</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">":"</string>
+    <string name="time_picker_dialog_title">"Setel waktu"</string>
+    <string name="updating_chrome">"Memperbarui Chrome..."</string>
+    <string name="week_picker_dialog_title">"Setel minggu"</string>
+</resources>

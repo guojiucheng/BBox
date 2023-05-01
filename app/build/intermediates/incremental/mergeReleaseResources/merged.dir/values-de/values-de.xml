@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="accessibility_date_picker_month">"Monat"</string>
+    <string name="accessibility_date_picker_week">"Woche"</string>
+    <string name="accessibility_date_picker_year">"Jahr"</string>
+    <string name="accessibility_datetime_picker_date">"Datum"</string>
+    <string name="accessibility_datetime_picker_time">"Zeit"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Stunde"</string>
+    <string name="accessibility_time_picker_milli">"Millisekunde"</string>
+    <string name="accessibility_time_picker_minute">"Minute"</string>
+    <string name="accessibility_time_picker_second">"Sekunde"</string>
+    <string name="actionbar_share">"Teilen"</string>
+    <string name="actionbar_textselection_title">"Textauswahl"</string>
+    <string name="actionbar_web_search">"Websuche"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Vorschläge verfügbar"</string>
+    <string name="autofill_popup_content_description">"Pop-up-Fenster für AutoFill-Daten wird angezeigt."</string>
+    <string name="choose_file">Wähle eine Datei</string>
+    <string name="color_picker_button_black">"Schwarz"</string>
+    <string name="color_picker_button_blue">"Blau"</string>
+    <string name="color_picker_button_cancel">"Abbrechen"</string>
+    <string name="color_picker_button_cyan">"Cyan"</string>
+    <string name="color_picker_button_green">"Grün"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Mehr"</string>
+    <string name="color_picker_button_red">"Rot"</string>
+    <string name="color_picker_button_set">"Festlegen"</string>
+    <string name="color_picker_button_white">"Weiß"</string>
+    <string name="color_picker_button_yellow">"Gelb"</string>
+    <string name="color_picker_dialog_title">"Farbe auswählen"</string>
+    <string name="color_picker_hue">"Farbton"</string>
+    <string name="color_picker_saturation">"Sättigung"</string>
+    <string name="color_picker_value">"Wert"</string>
+    <string name="copy_to_clipboard_failure_message">"Fehler beim Kopieren in die Zwischenablage"</string>
+    <string name="date_picker_dialog_clear">"Löschen"</string>
+    <string name="date_picker_dialog_other_button_label">"Sonstiges"</string>
+    <string name="date_picker_dialog_set">"Festlegen"</string>
+    <string name="date_picker_dialog_title">"Datum festlegen"</string>
+    <string name="date_time_picker_dialog_title">"Datum und Uhrzeit festlegen"</string>
+    <string name="empty_directory">Leerer Ordner</string>
+    <string name="error_selecting_file">Fehler beim Öffnen der Datei</string>
+    <string name="low_memory_error">"Zu wenig Speicher für vorherige Operation"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Leider ist dieses Video nicht für Streaming auf diesem Gerät gültig."</string>
+    <string name="media_player_error_text_unknown">"Dieses Video kann leider nicht abgespielt werden."</string>
+    <string name="media_player_error_title">"Videowiedergabe nicht möglich"</string>
+    <string name="media_player_loading_video">"Video wird geladen"</string>
+    <string name="month_picker_dialog_title">"Monat festlegen"</string>
+    <string name="opening_file_error">"Fehler beim Öffnen der Datei"</string>
+    <string name="password_generation_popup_content_description">"Pop-up-Fenster zur Passwortgenerierung wird angezeigt."</string>
+    <string name="profiler_error_toast">"Profiler konnte nicht gestartet werden."</string>
+    <string name="profiler_no_storage_toast">"Profiler kann nicht gestartet werden, da der externe Speicher nicht bereit ist."</string>
+    <string name="profiler_started_toast">"Profiler gestartet"</string>
+    <string name="profiler_stopped_toast">"Profiler ist fertig. Die Ergebnisse befinden sich in der Datei %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="storage_removed">Speicher wurde entfernt.</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Uhrzeit festlegen"</string>
+    <string name="updating_chrome">"Chrome wird aktualisiert..."</string>
+    <string name="week_picker_dialog_title">"Woche festlegen"</string>
+</resources>

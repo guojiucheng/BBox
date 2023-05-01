@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:87:9-95:20
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:87:9-95:20
 	android:grantUriPermissions
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:91:13-47
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:91:13-47
 	android:authorities
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:89:13-64
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:89:13-64
 	android:exported
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:90:13-37
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:90:13-37
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:88:13-62
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:88:13-62
 manifest
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
 MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\79fa77875a5c7608ec0ae2dcea3edf8f\jetified-loadsir-1.3.8\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\f05760a6ab320001c8b604d10d78ac7b\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\7160c6b9fdb2bc1e41d9bd715d01fdc2\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -24,14 +24,14 @@ MERGED from [com.alibaba.android:vlayout:1.2.37] D:\Knowledge\Projects\MavenRepo
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c8925b41f4a20a47760feaff8220048e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:17:1-31:12
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-30:12
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\971cb7215a834c859262d534c30e97bf\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.multidex:multidex:2.0.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\7c84e7269c6b70952089dffb6b7d6b73\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\e375d446f04504f2b162ee4e5a9a7e9d\jetified-BaseRecyclerViewAdapterHelper-2.9.45-androidx\AndroidManifest.xml:2:1-11:12
 MERGED from [com.orhanobut:hawk:2.0.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b314b0324cbd3612c2a57cb2e04ed4ee\jetified-hawk-2.0.1\AndroidManifest.xml:2:1-8:12
 MERGED from [me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:2:1-19:12
-MERGED from [:quickjs] D:\Knowledge\Git\source-3988b4e\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:quickjs] D:\Knowledge\Git\BBox\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [org.xwalk:xwalk_shared_library:23.53.589.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\6b8e9c0cf8a8e45ad6db4562018b9bbe\jetified-xwalk_shared_library-23.53.589.4\AndroidManifest.xml:1:1-9:12
 MERGED from [com.github.getActivity:XXPermissions:13.6] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a5e35e6c6b992a9755103cd6136410b2\jetified-XXPermissions-13.6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.hedzr:android-file-chooser:v1.2.0-final] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\c6e55ac5d0595ed9297528eff46debc4\jetified-android-file-chooser-v1.2.0-final\AndroidManifest.xml:2:1-18:12
@@ -83,97 +83,97 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\Knowledge\Pro
 MERGED from [com.facebook.conceal:conceal:1.1.3] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\5dffb4e3ba1e4e4e0c63d4dfc86fdd88\jetified-conceal-1.1.3\AndroidManifest.xml:7:1-16:12
 MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\5a5751c6b1bb57928663c80d033dd64e\jetified-dkplayer-ui-3.3.5\AndroidManifest.xml:2:1-9:12
 MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b0d4a1afdd7eed7515ad46ba72c1f9c2\jetified-rtmp-client-3.1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
 	package
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.software.leanback
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:5:5-7:36
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:5:5-7:36
 	android:required
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:7:9-33
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:7:9-33
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:6:9-49
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:6:9-49
 uses-feature#android.hardware.touchscreen
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:8:5-10:36
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:8:5-10:36
 	android:required
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:10:9-33
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:10:9-33
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:9:9-52
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:9:9-52
 uses-permission#android.permission.INTERNET
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:12:5-67
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:26:5-67
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:26:5-67
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-67
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-67
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-67
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-67
 MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b0d4a1afdd7eed7515ad46ba72c1f9c2\jetified-rtmp-client-3.1.0\AndroidManifest.xml:11:5-67
 MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b0d4a1afdd7eed7515ad46ba72c1f9c2\jetified-rtmp-client-3.1.0\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:13:5-79
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-79
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-79
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-79
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\80da2eb9fca2b4e17a3bd4e12418ff51\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\80da2eb9fca2b4e17a3bd4e12418ff51\jetified-exoplayer-core-2.14.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\1b61160ee4594aebe6563aeae107d75d\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\1b61160ee4594aebe6563aeae107d75d\jetified-exoplayer-common-2.14.2\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:14:5-76
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-76
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-76
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:14:5-76
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-76
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-76
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:14:22-73
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:15:5-86
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-86
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-86
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:15:5-86
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-86
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-86
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:15:22-83
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:15:22-83
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:16:5-80
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:16:5-80
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:27:5-80
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:27:5-80
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-80
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-80
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-80
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:16:22-77
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:17:5-81
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:28:5-81
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:28:5-81
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-81
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-81
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-81
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:17:22-78
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:18:5-79
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-79
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-79
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-79
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:18:22-76
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:18:22-76
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:19:5-83
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-83
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-83
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:19:5-83
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-83
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-83
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:19:22-80
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:19:22-80
 application
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:21:5-110:19
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:21:5-110:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\f05760a6ab320001c8b604d10d78ac7b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\f05760a6ab320001c8b604d10d78ac7b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\bc86d415c03152e2103b8c82a0198dc1\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
@@ -197,155 +197,155 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Knowledg
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:31:9-35
 	android:label
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:28:9-41
 	android:hardwareAccelerated
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:26:9-43
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:26:9-43
 	android:configChanges
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:25:9-70
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:25:9-70
 	android:largeHeap
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:29:9-33
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:29:9-33
 	android:icon
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:27:9-42
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:27:9-42
 	android:allowBackup
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:23:9-35
 	android:banner
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:24:9-46
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:24:9-46
 	android:theme
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:32:9-52
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:32:9-52
 	android:networkSecurityConfig
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:30:9-69
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:30:9-69
 	android:usesCleartextTraffic
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:22:9-33
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:22:9-33
 activity#com.github.tvbox.osc.bbox.ui.activity.HomeActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:35:9-44:20
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:35:9-44:20
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:36:13-53
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:36:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:38:13-43:29
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:38:13-43:29
 action#android.intent.action.MAIN
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:41:27-74
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:42:17-86
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:42:17-86
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:42:27-83
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:42:27-83
 activity#com.github.tvbox.osc.bbox.ui.activity.LivePlayActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:46:9-48:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:46:9-48:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:47:13-57
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:47:13-57
 activity#com.github.tvbox.osc.bbox.ui.activity.DetailActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:49:9-52:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:49:9-52:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:52:13-56
 	android:configChanges
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:51:13-59
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:51:13-59
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:50:13-55
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:50:13-55
 activity#com.github.tvbox.osc.bbox.ui.activity.PlayActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:53:9-56:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:53:9-56:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:56:13-56
 	android:configChanges
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:55:13-59
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:55:13-59
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:54:13-53
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:54:13-53
 activity#com.github.tvbox.osc.bbox.ui.activity.PushActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:57:9-59:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:57:9-59:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:59:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:59:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:58:13-53
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:58:13-53
 activity#com.github.tvbox.osc.bbox.ui.activity.SearchActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:60:9-62:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:60:9-62:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:62:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:62:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:61:13-55
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:61:13-55
 activity#com.github.tvbox.osc.bbox.ui.activity.FastSearchActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:63:9-65:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:63:9-65:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:65:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:64:13-59
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:64:13-59
 activity#com.github.tvbox.osc.bbox.ui.activity.SettingActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:66:9-68:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:66:9-68:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:68:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:68:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:67:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:67:13-56
 activity#com.github.tvbox.osc.bbox.ui.activity.HistoryActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:69:9-71:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:69:9-71:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:71:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:71:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:70:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:70:13-56
 activity#com.github.tvbox.osc.bbox.ui.activity.CollectActivity
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:72:9-74:59
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:72:9-74:59
 	android:screenOrientation
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:74:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:73:13-56
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:73:13-56
 receiver#com.github.tvbox.osc.bbox.receiver.SearchReceiver
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:76:9-80:20
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:76:9-80:20
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:76:19-58
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:76:19-58
 intent-filter#action:name:android.content.movie.search.Action
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:77:13-79:29
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:77:13-79:29
 action#android.content.movie.search.Action
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:78:17-78
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:78:17-78
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:78:25-75
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:78:25-75
 receiver#com.github.tvbox.osc.bbox.receiver.CustomWebReceiver
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:81:9-85:20
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:81:9-85:20
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:81:19-61
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:81:19-61
 intent-filter#action:name:android.content.movie.custom.web.Action
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:82:13-84:29
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:82:13-84:29
 action#android.content.movie.custom.web.Action
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:83:17-82
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:83:17-82
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:83:25-79
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:83:25-79
 meta-data#design_width_in_dp
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:97:9-99:36
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:97:9-99:36
 	android:value
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:99:13-33
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:99:13-33
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:98:13-46
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:98:13-46
 meta-data#design_height_in_dp
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:100:9-102:35
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:100:9-102:35
 	android:value
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:102:13-32
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:102:13-32
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:101:13-47
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:101:13-47
 meta-data#xwalk_enable_download_mode
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:104:9-106:38
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:104:9-106:38
 	android:value
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:106:13-35
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:106:13-35
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:105:13-54
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:105:13-54
 meta-data#xwalk_verify
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:107:9-109:39
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:107:9-109:39
 	android:value
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:109:13-36
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:109:13-36
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:108:13-40
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:108:13-40
 uses-sdk
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\79fa77875a5c7608ec0ae2dcea3edf8f\jetified-loadsir-1.3.8\AndroidManifest.xml:7:5-9:41
 MERGED from [com.kingja.loadsir:loadsir:1.3.8] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\79fa77875a5c7608ec0ae2dcea3edf8f\jetified-loadsir-1.3.8\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\f05760a6ab320001c8b604d10d78ac7b\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -364,8 +364,8 @@ MERGED from [com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRe
 MERGED from [com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:22:5-24:41
 MERGED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:22:5-24:41
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:41
-MERGED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:41
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:41
+MERGED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:41
 MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\971cb7215a834c859262d534c30e97bf\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:extension-okhttp:2.14.2] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\971cb7215a834c859262d534c30e97bf\jetified-extension-okhttp-2.14.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
@@ -378,8 +378,8 @@ MERGED from [com.orhanobut:hawk:2.0.1] D:\Knowledge\Projects\MavenRepository\cac
 MERGED from [com.orhanobut:hawk:2.0.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b314b0324cbd3612c2a57cb2e04ed4ee\jetified-hawk-2.0.1\AndroidManifest.xml:6:5-44
 MERGED from [me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:7:5-9:41
 MERGED from [me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:7:5-9:41
-MERGED from [:quickjs] D:\Knowledge\Git\source-3988b4e\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:quickjs] D:\Knowledge\Git\source-3988b4e\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:quickjs] D:\Knowledge\Git\BBox\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:quickjs] D:\Knowledge\Git\BBox\quickjs\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [org.xwalk:xwalk_shared_library:23.53.589.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\6b8e9c0cf8a8e45ad6db4562018b9bbe\jetified-xwalk_shared_library-23.53.589.4\AndroidManifest.xml:6:5-8:41
 MERGED from [org.xwalk:xwalk_shared_library:23.53.589.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\6b8e9c0cf8a8e45ad6db4562018b9bbe\jetified-xwalk_shared_library-23.53.589.4\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.getActivity:XXPermissions:13.6] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a5e35e6c6b992a9755103cd6136410b2\jetified-XXPermissions-13.6\AndroidManifest.xml:7:5-44
@@ -482,22 +482,22 @@ MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\Knowledge\Project
 MERGED from [xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\5a5751c6b1bb57928663c80d033dd64e\jetified-dkplayer-ui-3.3.5\AndroidManifest.xml:5:5-7:41
 MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b0d4a1afdd7eed7515ad46ba72c1f9c2\jetified-rtmp-client-3.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [net.butterflytv.utils:rtmp-client:3.1.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\b0d4a1afdd7eed7515ad46ba72c1f9c2\jetified-rtmp-client-3.1.0\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:92:13-94:54
+ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:92:13-94:54
 	android:resource
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:94:17-51
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:94:17-51
 	android:name
-		ADDED from D:\Knowledge\Git\source-3988b4e\app\src\main\AndroidManifest.xml:93:17-67
+		ADDED from D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:93:17-67
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
@@ -511,17 +511,17 @@ ADDED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches
 	android:name
 		ADDED from [com.lzy.net:okgo:3.0.4] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\aa16d83cfdb5fadf7753744a5a69e622\jetified-okgo-3.0.4\AndroidManifest.xml:29:22-81
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-75
+ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-75
 	android:name
-		ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:22-72
+		ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:22-72
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-68
+ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:22-65
+		ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.GET_TASKS
-ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-68
+ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-68
 	android:name
-		ADDED from [:player] D:\Knowledge\Git\source-3988b4e\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:22-65
+		ADDED from [:player] D:\Knowledge\Git\BBox\player\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:22-65
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.3.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\43f856650d9ebd23d57d166c537c37bb\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
 	android:exported

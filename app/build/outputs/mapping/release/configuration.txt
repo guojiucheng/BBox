@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is D:\Knowledge\Git\source-3988b4e\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.2.1
+# The proguard configuration file for the following section is D:\Knowledge\Git\BBox\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.2.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -111,8 +111,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from D:\Knowledge\Git\source-3988b4e\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.2.1
-# The proguard configuration file for the following section is D:\Knowledge\Git\source-3988b4e\app\proguard-rules.pro
+# End of content from D:\Knowledge\Git\BBox\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.2.1
+# The proguard configuration file for the following section is D:\Knowledge\Git\BBox\app\proguard-rules.pro
 #############################################
 #
 # 对于一些基本指令的添加
@@ -320,8 +320,8 @@
 -keep class com.github.tvbox.quickjs.** {*;}
 # 支持影视的ali相关的jar
 -keep class com.google.gson.**{*;}
-# End of content from D:\Knowledge\Git\source-3988b4e\app\proguard-rules.pro
-# The proguard configuration file for the following section is D:\Knowledge\Git\source-3988b4e\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from D:\Knowledge\Git\BBox\app\proguard-rules.pro
+# The proguard configuration file for the following section is D:\Knowledge\Git\BBox\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
@@ -415,7 +415,7 @@
 -keepclassmembers class * { *** divLoadEpgRight(android.view.View); }
 
 
-# End of content from D:\Knowledge\Git\source-3988b4e\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from D:\Knowledge\Git\BBox\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
 # The proguard configuration file for the following section is D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\7160c6b9fdb2bc1e41d9bd715d01fdc2\appcompat-1.3.0\proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #

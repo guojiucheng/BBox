@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ניווט לדף הבית"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ניווט למעלה"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"סיום"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"הצגת הכול"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"בחירת אפליקציה"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"כבוי"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"מופעל"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"מחיקה"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"רווח"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"תפריט+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"חיפוש…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"מחיקת השאילתה"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"חיפוש"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"שליחת שאילתה"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"שיתוף עם"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"שיתוף עם <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"כיווץ"</string>
+    <string name="accessibility_date_picker_month">"חודש"</string>
+    <string name="accessibility_date_picker_week">"שבוע"</string>
+    <string name="accessibility_date_picker_year">"שנה"</string>
+    <string name="accessibility_datetime_picker_date">"תאריך"</string>
+    <string name="accessibility_datetime_picker_time">"שעה"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"שעה"</string>
+    <string name="accessibility_time_picker_milli">"אלפית שנייה"</string>
+    <string name="accessibility_time_picker_minute">"דקה"</string>
+    <string name="accessibility_time_picker_second">"שנייה"</string>
+    <string name="actionbar_share">"שתף"</string>
+    <string name="actionbar_textselection_title">"בחירת טקסט"</string>
+    <string name="actionbar_web_search">"‏חיפוש Google"</string>
+    <string name="autofill_keyboard_accessory_content_description">"הצעות זמינות"</string>
+    <string name="autofill_popup_content_description">"מציג את החלון הקופץ של מילוי אוטומטי"</string>
+    <string name="color_picker_button_black">"שחור"</string>
+    <string name="color_picker_button_blue">"כחול"</string>
+    <string name="color_picker_button_cancel">"ביטול"</string>
+    <string name="color_picker_button_cyan">"ציאן"</string>
+    <string name="color_picker_button_green">"ירוק"</string>
+    <string name="color_picker_button_magenta">"מגנטה"</string>
+    <string name="color_picker_button_more">"עוד"</string>
+    <string name="color_picker_button_red">"אדום"</string>
+    <string name="color_picker_button_set">"הגדר"</string>
+    <string name="color_picker_button_white">"לבן"</string>
+    <string name="color_picker_button_yellow">"צהוב"</string>
+    <string name="color_picker_dialog_title">"בחירת צבע"</string>
+    <string name="color_picker_hue">"גוון"</string>
+    <string name="color_picker_saturation">"רווייה"</string>
+    <string name="color_picker_value">"ערך"</string>
+    <string name="copy_to_clipboard_failure_message">"ההעתקה אל הלוח נכשלה"</string>
+    <string name="date_picker_dialog_clear">"נקה"</string>
+    <string name="date_picker_dialog_other_button_label">"אחר"</string>
+    <string name="date_picker_dialog_set">"הגדר"</string>
+    <string name="date_picker_dialog_title">"הגדרת תאריך"</string>
+    <string name="date_time_picker_dialog_title">"הגדרת תאריך ושעה"</string>
+    <string name="low_memory_error">"לא ניתן להשלים את הפעולה הקודמת עקב מחסור בזיכרון"</string>
+    <string name="media_player_error_button">"אישור"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"מצטערים. הזרמת הסרטון הזה למכשיר הזה אינה חוקית."</string>
+    <string name="media_player_error_text_unknown">"מצטערים. לא ניתן להפעיל את הסרטון הזה."</string>
+    <string name="media_player_error_title">"לא ניתן להפעיל את הסרטון"</string>
+    <string name="media_player_loading_video">"טוען סרטון"</string>
+    <string name="month_picker_dialog_title">"הגדרת חודש"</string>
+    <string name="opening_file_error">"פתיחת הקובץ הנבחר נכשלה"</string>
+    <string name="password_generation_popup_content_description">"מציג את החלון הקופץ של יצירת סיסמה"</string>
+    <string name="profiler_error_toast">"נכשלה פתיחת יוצר הפרופילים"</string>
+    <string name="profiler_no_storage_toast">"לא ניתן להפעיל את יוצר הפרופילים משום שהאחסון החיצוני אינו מוכן"</string>
+    <string name="profiler_started_toast">"יוצר הפרופילים הופעל"</string>
+    <string name="profiler_stopped_toast">"יוצר הפרופילים סיים את פעולתו. התוצאות נמצאות ב-%1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"חיפוש"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"הגדרת שעה"</string>
+    <string name="updating_chrome">"‏מעדכן את Chrome..."</string>
+    <string name="week_picker_dialog_title">"הגדרת שבוע"</string>
+</resources>

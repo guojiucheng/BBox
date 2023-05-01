@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на головну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Більше опцій"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показати всі"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ЗНИЖКА"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введіть пошуковий запит…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Наіслати запит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string name="accessibility_date_picker_month">"Місяць"</string>
+    <string name="accessibility_date_picker_week">"Тиждень"</string>
+    <string name="accessibility_date_picker_year">"Рік"</string>
+    <string name="accessibility_datetime_picker_date">"Дата"</string>
+    <string name="accessibility_datetime_picker_time">"Час"</string>
+    <string name="accessibility_time_picker_ampm">"д.п./п.п."</string>
+    <string name="accessibility_time_picker_hour">"Години"</string>
+    <string name="accessibility_time_picker_milli">"Мілісекунди"</string>
+    <string name="accessibility_time_picker_minute">"Хвилини"</string>
+    <string name="accessibility_time_picker_second">"Секунди"</string>
+    <string name="actionbar_share">"Надіслати"</string>
+    <string name="actionbar_textselection_title">"Виділення тексту"</string>
+    <string name="actionbar_web_search">"Веб-пошук"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Є пропозиції"</string>
+    <string name="autofill_popup_content_description">"Показ спливаючих вікон автозаповнення"</string>
+    <string name="color_picker_button_black">"Чорний"</string>
+    <string name="color_picker_button_blue">"Синій"</string>
+    <string name="color_picker_button_cancel">"Скасувати"</string>
+    <string name="color_picker_button_cyan">"Бірюзовий"</string>
+    <string name="color_picker_button_green">"Зелений"</string>
+    <string name="color_picker_button_magenta">"Пурпурний"</string>
+    <string name="color_picker_button_more">"Більше"</string>
+    <string name="color_picker_button_red">"Червоний"</string>
+    <string name="color_picker_button_set">"Встановити"</string>
+    <string name="color_picker_button_white">"Білий"</string>
+    <string name="color_picker_button_yellow">"Жовтий"</string>
+    <string name="color_picker_dialog_title">"Вибрати колір"</string>
+    <string name="color_picker_hue">"Тон"</string>
+    <string name="color_picker_saturation">"Насиченість"</string>
+    <string name="color_picker_value">"Яскравість"</string>
+    <string name="copy_to_clipboard_failure_message">"Не вдалося скопіювати в буфер обміну"</string>
+    <string name="date_picker_dialog_clear">"Очистити"</string>
+    <string name="date_picker_dialog_other_button_label">"Інше"</string>
+    <string name="date_picker_dialog_set">"Встановити"</string>
+    <string name="date_picker_dialog_title">"Вибрати дату"</string>
+    <string name="date_time_picker_dialog_title">"Вибрати дату й час"</string>
+    <string name="low_memory_error">"Не вдається закінчити попередню операцію через нестачу пам’яті"</string>
+    <string name="media_player_error_button">"ОК"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"На жаль, це відео неможливо транслювати на цьому пристрої."</string>
+    <string name="media_player_error_text_unknown">"На жаль, це відео неможливо відтворити."</string>
+    <string name="media_player_error_title">"Не вдається відтворити відео"</string>
+    <string name="media_player_loading_video">"Завантаж. відео"</string>
+    <string name="month_picker_dialog_title">"Вибрати місяць"</string>
+    <string name="opening_file_error">"Не вдалося відкрити файл"</string>
+    <string name="password_generation_popup_content_description">"Показ спливаючих вікон для створення пароля"</string>
+    <string name="profiler_error_toast">"Помилка запуску профілювальника"</string>
+    <string name="profiler_no_storage_toast">"Неможливо запустити профілювальник, оскільки зовнішня пам’ять не готова"</string>
+    <string name="profiler_started_toast">"Профілювальник запущено"</string>
+    <string name="profiler_stopped_toast">"Профілювальник закінчив роботу. Результати у файлі %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"дп"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"пп"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Вибрати час"</string>
+    <string name="updating_chrome">"Оновлення Chrome…"</string>
+    <string name="week_picker_dialog_title">"Вибрати тиждень"</string>
+</resources>

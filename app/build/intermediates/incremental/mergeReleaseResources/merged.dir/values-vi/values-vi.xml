@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="accessibility_date_picker_month">"Tháng"</string>
+    <string name="accessibility_date_picker_week">"Tuần"</string>
+    <string name="accessibility_date_picker_year">"Năm"</string>
+    <string name="accessibility_datetime_picker_date">"Ngày Tháng"</string>
+    <string name="accessibility_datetime_picker_time">"Thời gian"</string>
+    <string name="accessibility_time_picker_ampm">"SA/CH"</string>
+    <string name="accessibility_time_picker_hour">"Giờ"</string>
+    <string name="accessibility_time_picker_milli">"Mili giây"</string>
+    <string name="accessibility_time_picker_minute">"Phút"</string>
+    <string name="accessibility_time_picker_second">"Giây"</string>
+    <string name="actionbar_share">"Chia sẻ"</string>
+    <string name="actionbar_textselection_title">"Lựa chọn văn bản"</string>
+    <string name="actionbar_web_search">"Tìm kiếm trên web"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Có đề xuất"</string>
+    <string name="autofill_popup_content_description">"Hiển thị cửa sổ bật lên tự động điền"</string>
+    <string name="color_picker_button_black">"Đen"</string>
+    <string name="color_picker_button_blue">"Xanh lam"</string>
+    <string name="color_picker_button_cancel">"Hủy"</string>
+    <string name="color_picker_button_cyan">"Lục lam"</string>
+    <string name="color_picker_button_green">"Xanh lục"</string>
+    <string name="color_picker_button_magenta">"Đỏ thẫm"</string>
+    <string name="color_picker_button_more">"Thêm"</string>
+    <string name="color_picker_button_red">"Đỏ"</string>
+    <string name="color_picker_button_set">"Đặt"</string>
+    <string name="color_picker_button_white">"Trắng"</string>
+    <string name="color_picker_button_yellow">"Vàng"</string>
+    <string name="color_picker_dialog_title">"Chọn màu"</string>
+    <string name="color_picker_hue">"Màu sắc"</string>
+    <string name="color_picker_saturation">"Độ bão hòa"</string>
+    <string name="color_picker_value">"Giá trị"</string>
+    <string name="copy_to_clipboard_failure_message">"Sao chép sang khay nhớ tạm không thành công"</string>
+    <string name="date_picker_dialog_clear">"Xóa"</string>
+    <string name="date_picker_dialog_other_button_label">"Khác"</string>
+    <string name="date_picker_dialog_set">"Đặt"</string>
+    <string name="date_picker_dialog_title">"Đặt ngày"</string>
+    <string name="date_time_picker_dialog_title">"Đặt ngày giờ"</string>
+    <string name="low_memory_error">"Không thể hoàn tất thao tác trước do bộ nhớ thấp"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Rất tiếc, video này không hợp lệ để phát trực tuyến sang thiết bị này."</string>
+    <string name="media_player_error_text_unknown">"Rất tiếc, không thể phát video này."</string>
+    <string name="media_player_error_title">"Không thể phát video"</string>
+    <string name="media_player_loading_video">"Đang tải video"</string>
+    <string name="month_picker_dialog_title">"Đặt tháng"</string>
+    <string name="opening_file_error">"Không mở được tệp đã chọn"</string>
+    <string name="password_generation_popup_content_description">"Hiển thị cửa sổ bật lên tạo mật khẩu"</string>
+    <string name="profiler_error_toast">"Không khởi động được profiler"</string>
+    <string name="profiler_no_storage_toast">"Không thể khởi động profiler vì bộ nhớ ngoài không sẵn sàng"</string>
+    <string name="profiler_started_toast">"Đã chạy Profiler"</string>
+    <string name="profiler_stopped_toast">"Đã hoàn tất Profiler. Kết quả có trong %1$s."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"SA"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"CH"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Đặt thời gian"</string>
+    <string name="updating_chrome">"Đang cập nhật Chrome..."</string>
+    <string name="week_picker_dialog_title">"Đặt tuần"</string>
+</resources>

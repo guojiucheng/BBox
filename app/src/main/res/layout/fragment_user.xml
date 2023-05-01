@@ -24,11 +24,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/vs_100"
                 android:layout_gravity="center"
+                android:layout_margin="@dimen/vs_5"
                 android:background="@drawable/shape_user_focus"
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:focusable="true"
-                android:nextFocusLeft="@+id/tvSetting"
                 android:orientation="horizontal"
                 android:padding="@dimen/vs_20">
 
