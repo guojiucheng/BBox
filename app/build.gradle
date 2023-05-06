@@ -12,14 +12,14 @@ android {
         }
     }
 
-   /* applicationVariants.all { v ->
+    applicationVariants.all { v ->
         v.outputs.all {
-//            指定输出到 ${project}/outputs/apk/release文件夹下
+            // 指定输出到 ${project}/outputs/apk/release文件夹下
             v.getPackageApplication().outputDirectory = new File(project.rootDir.absolutePath + "/build/apk/release")
-//            修改输出apk名字
-            outputFileName = "SHJ_bunny盒子.apk"
+            // 修改输出apk名字
+            outputFileName = "SHJ_BBox.apk"
         }
-    }*/
+    }
 
     defaultConfig {
         applicationId 'com.github.tvbox.osc.bbox'
