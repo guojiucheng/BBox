@@ -12,15 +12,14 @@ android {
         }
     }
 
-
-    /*applicationVariants.all { v ->
-        v.outputs.all {
-            // 指定输出到 ${project}/outputs/apk/release文件夹下
-            v.getPackageApplication().outputDirectory = new File(project.rootDir.absolutePath + "/build/apk/release")
-            // 修改输出apk名字
-            outputFileName = "SHJ_BBox.apk"
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                outputFileName =  "SHJ_BBox.apk"
+            }
         }
-    }*/
+    }
 
     defaultConfig {
         applicationId 'com.github.tvbox.osc.bbox'
