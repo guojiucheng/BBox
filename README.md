@@ -9,6 +9,3 @@
 #### https://github.com/CatVodTVOfficial/TVBoxOSC
 #### https://github.com/q215613905/TVBoxOS
 TVBox 简易修改 多源版本
-
-已打包好的安装包在
-***build/apk/release/app-release.apk***
