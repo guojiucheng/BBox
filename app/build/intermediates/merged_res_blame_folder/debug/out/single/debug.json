@@ -84,12 +84,12 @@
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\shape_live_select.xml"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_grid.xml.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\fragment_grid.xml"
-    },
-    {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_grid.xml.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\fragment_grid.xml"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_error.png.flat",
@@ -164,20 +164,20 @@
         "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_error.png"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_live.png.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_live.png"
-    },
-    {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_live.png.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_live.png"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_error.png.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_error.png"
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_live.png.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_live.png"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_live_channel.xml.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\item_live_channel.xml"
+    },
+    {
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_error.png.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_error.png"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_xwalk.xml.flat",
@@ -236,12 +236,12 @@
         "source": "D:\\Knowledge\\Git\\BBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_search.png"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play.xml.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\activity_play.xml"
-    },
-    {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_icon.png.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play.xml.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\activity_play.xml"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_live.xml.flat",
@@ -284,12 +284,12 @@
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\player_vod_control_view.xml"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_right_bg.xml.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\item_right_bg.xml"
-    },
-    {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_epglist_item.xml.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\epglist_item.xml"
+    },
+    {
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_right_bg.xml.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\item_right_bg.xml"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_grid_filter.xml.flat",
@@ -332,12 +332,12 @@
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\layout\\activity_live_play.xml"
     },
     {
-        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_source_flag_focus.xml.flat",
-        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\shape_source_flag_focus.xml"
-    },
-    {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable_anim_loading.xml.flat",
         "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\anim_loading.xml"
+    },
+    {
+        "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_source_flag_focus.xml.flat",
+        "source": "D:\\Knowledge\\Git\\BBox\\app\\src\\main\\res\\drawable\\shape_source_flag_focus.xml"
     },
     {
         "merged": "D:\\Knowledge\\Git\\BBox\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_dialog_api_history.xml.flat",

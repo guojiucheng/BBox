@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.github.tvbox.osc.bbox.text"
+3    package="com.github.tvbox.osc.bbox"
 4    android:versionCode="1"
 5    android:versionName="20230302-0924" >
 6
@@ -193,7 +193,7 @@
 98        <provider
 99            android:name="androidx.core.content.FileProvider"
 99-->D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:88:13-62
-100            android:authorities="com.github.tvbox.osc.bbox.text.fileprovider"
+100            android:authorities="com.github.tvbox.osc.bbox.fileprovider"
 100-->D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:89:13-64
 101            android:exported="false"
 101-->D:\Knowledge\Git\BBox\app\src\main\AndroidManifest.xml:90:13-37
@@ -236,7 +236,7 @@
 121-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 122            android:name="com.squareup.picasso.PicassoProvider"
 122-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-123            android:authorities="com.github.tvbox.osc.bbox.text.com.squareup.picasso"
+123            android:authorities="com.github.tvbox.osc.bbox.com.squareup.picasso"
 123-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 124            android:exported="false" />
 124-->[com.squareup.picasso:picasso:2.71828] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\29e6ab820f8762c7192e5495e147ce5f\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
@@ -254,7 +254,7 @@
 131-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:12:9-16:43
 132            android:name="me.jessyan.autosize.InitProvider"
 132-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:13:13-60
-133            android:authorities="com.github.tvbox.osc.bbox.text.autosize-init-provider"
+133            android:authorities="com.github.tvbox.osc.bbox.autosize-init-provider"
 133-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:14:13-74
 134            android:exported="false"
 134-->[me.jessyan:autosize:1.2.1] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\a11d0c456cf28c66590d03230d892446\jetified-autosize-1.2.1\AndroidManifest.xml:15:13-37
@@ -274,7 +274,7 @@
 142-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 143            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 143-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-144            android:authorities="com.github.tvbox.osc.bbox.text.lifecycle-process"
+144            android:authorities="com.github.tvbox.osc.bbox.lifecycle-process"
 144-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 145            android:exported="false"
 145-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Knowledge\Projects\MavenRepository\caches\transforms-2\files-2.1\855ddc61a34d58ba3d9ba2b3d08479d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37

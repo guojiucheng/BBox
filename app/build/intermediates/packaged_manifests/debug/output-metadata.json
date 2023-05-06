@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.github.tvbox.osc.bbox.text",
+  "applicationId": "com.github.tvbox.osc.bbox",
   "variantName": "debug",
   "elements": [
     {

@@ -396,6 +396,9 @@ public class ModelSettingFragment extends BaseLazyFragment {
 
                 @Override
                 public void del(String value, ArrayList<String> data) {
+                    HashMap<String, String> map = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
+                    map.remove(value);
+                    Hawk.put(HawkConfig.STORE_API_MAP, map);
                     Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, data);
                 }
             }, history, idx);
