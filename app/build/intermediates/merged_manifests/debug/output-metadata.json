@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.github.tvbox.osc.bbox",
+  "applicationId": "com.github.tvbox.osc.bbox.text",
   "variantName": "debug",
   "elements": [
     {
