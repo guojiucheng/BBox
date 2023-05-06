@@ -2,7 +2,6 @@
   <library name="Gradle: com.orhanobut:hawk:2.0.1@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/b314b0324cbd3612c2a57cb2e04ed4ee/jetified-hawk-2.0.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/b314b0324cbd3612c2a57cb2e04ed4ee/jetified-hawk-2.0.1/res" />
       <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/b314b0324cbd3612c2a57cb2e04ed4ee/jetified-hawk-2.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

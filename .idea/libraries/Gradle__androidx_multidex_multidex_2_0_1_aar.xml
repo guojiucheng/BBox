@@ -2,7 +2,6 @@
   <library name="Gradle: androidx.multidex:multidex:2.0.1@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/7c84e7269c6b70952089dffb6b7d6b73/multidex-2.0.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/7c84e7269c6b70952089dffb6b7d6b73/multidex-2.0.1/res" />
       <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/7c84e7269c6b70952089dffb6b7d6b73/multidex-2.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

@@ -4,8 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TVBox.iml" filepath="$PROJECT_DIR$/.idea/modules/TVBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TVBox.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TVBox.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TVBox.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TVBox.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TVBox.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TVBox.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TVBox.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TVBox.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/TVBox.player.iml" filepath="$PROJECT_DIR$/.idea/modules/player/TVBox.player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/TVBox.player.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/player/TVBox.player.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/TVBox.player.main.iml" filepath="$PROJECT_DIR$/.idea/modules/player/TVBox.player.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/TVBox.player.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/player/TVBox.player.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.iml" filepath="$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/quickjs/TVBox.quickjs.unitTest.iml" />
     </modules>
   </component>
 </project>

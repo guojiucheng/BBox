@@ -5,7 +5,6 @@
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/80da2eb9fca2b4e17a3bd4e12418ff51/jetified-exoplayer-core-2.14.2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/80da2eb9fca2b4e17a3bd4e12418ff51/jetified-exoplayer-core-2.14.2/res" />
       <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/80da2eb9fca2b4e17a3bd4e12418ff51/jetified-exoplayer-core-2.14.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

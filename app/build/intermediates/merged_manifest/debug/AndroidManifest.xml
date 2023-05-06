@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.tvbox.osc.bbox"
+    package="com.github.tvbox.osc.bbox.text"
     android:versionCode="1"
     android:versionName="20230302-0924" >
 
@@ -97,7 +97,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.github.tvbox.osc.bbox.fileprovider"
+            android:authorities="com.github.tvbox.osc.bbox.text.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -120,7 +120,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.github.tvbox.osc.bbox.com.squareup.picasso"
+            android:authorities="com.github.tvbox.osc.bbox.text.com.squareup.picasso"
             android:exported="false" />
 
         <service
@@ -130,7 +130,7 @@
 
         <provider
             android:name="me.jessyan.autosize.InitProvider"
-            android:authorities="com.github.tvbox.osc.bbox.autosize-init-provider"
+            android:authorities="com.github.tvbox.osc.bbox.text.autosize-init-provider"
             android:exported="false"
             android:multiprocess="true" />
 
@@ -141,7 +141,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.github.tvbox.osc.bbox.lifecycle-process"
+            android:authorities="com.github.tvbox.osc.bbox.text.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

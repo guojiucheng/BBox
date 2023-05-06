@@ -2,7 +2,6 @@
   <library name="Gradle: com.kingja.loadsir:loadsir:1.3.8@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/res" />
       <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

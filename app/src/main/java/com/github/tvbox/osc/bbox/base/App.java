@@ -2,27 +2,19 @@ package com.github.tvbox.osc.bbox.base;
 
 import android.app.Activity;
 import androidx.multidex.MultiDexApplication;
-
 import com.github.tvbox.osc.bbox.bean.VodInfo;
 import com.github.tvbox.osc.bbox.callback.EmptyCallback;
 import com.github.tvbox.osc.bbox.callback.LoadingCallback;
 import com.github.tvbox.osc.bbox.data.AppDataManager;
 import com.github.tvbox.osc.bbox.server.ControlManager;
-import com.github.tvbox.osc.bbox.util.AppManager;
-import com.github.tvbox.osc.bbox.util.EpgUtil;
-import com.github.tvbox.osc.bbox.util.FileUtils;
-import com.github.tvbox.osc.bbox.util.HawkConfig;
-import com.github.tvbox.osc.bbox.util.OkGoHelper;
-import com.github.tvbox.osc.bbox.util.PlayerHelper;
+import com.github.tvbox.osc.bbox.util.*;
 import com.github.tvbox.osc.bbox.util.js.JSEngine;
 import com.kingja.loadsir.core.LoadSir;
 import com.orhanobut.hawk.Hawk;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import me.jessyan.autosize.AutoSizeConfig;
 import me.jessyan.autosize.unit.Subunits;
+
+import java.util.ArrayList;
 
 /**
  * @author pj567
@@ -61,12 +53,12 @@ public class App extends MultiDexApplication {
         // Hawk
         Hawk.init(this).build();
 
-//        String defaultApiName = "默认线路-欧哥爬虫线路";
+        // String defaultApiName = "默认线路-欧哥爬虫线路";
         String defaultApi =
                 "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2";
 
-//        HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
-//        defaultApiMap.put(defaultApiName, defaultApi);
+        // HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
+        // defaultApiMap.put(defaultApiName, defaultApi);
 
         ArrayList<String> defaultApiHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
         defaultApiHistory.add(defaultApi);
@@ -75,8 +67,8 @@ public class App extends MultiDexApplication {
 
         putDefault(HawkConfig.API_URL, defaultApi);
         putDefault(HawkConfig.API_HISTORY, defaultApiHistory);
-//        putDefault(HawkConfig.API_NAME, defaultApiName);
-//        putDefault(HawkConfig.API_MAP, defaultApiMap);
+        // putDefault(HawkConfig.API_NAME, defaultApiName);
+        // putDefault(HawkConfig.API_MAP, defaultApiMap);
 
         putDefault(HawkConfig.PLAY_TYPE, 1);
         putDefault(HawkConfig.HOME_REC, 1);
@@ -102,10 +94,12 @@ public class App extends MultiDexApplication {
 
 
     private VodInfo vodInfo;
-    public void setVodInfo(VodInfo vodinfo){
+
+    public void setVodInfo(VodInfo vodinfo) {
         this.vodInfo = vodinfo;
     }
-    public VodInfo getVodInfo(){
+
+    public VodInfo getVodInfo() {
         return this.vodInfo;
     }
 

@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="16"
-6-->D:\Knowledge\Git\source-3988b4e\quickjs\src\main\AndroidManifest.xml
+6-->D:\Knowledge\Git\BBox\quickjs\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="26" />
-7-->D:\Knowledge\Git\source-3988b4e\quickjs\src\main\AndroidManifest.xml
+7-->D:\Knowledge\Git\BBox\quickjs\src\main\AndroidManifest.xml
 8
 9</manifest>

@@ -2,7 +2,6 @@
   <library name="Gradle: com.github.getActivity:XXPermissions:13.6@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a5e35e6c6b992a9755103cd6136410b2/jetified-XXPermissions-13.6/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a5e35e6c6b992a9755103cd6136410b2/jetified-XXPermissions-13.6/res" />
       <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a5e35e6c6b992a9755103cd6136410b2/jetified-XXPermissions-13.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

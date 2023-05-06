@@ -2,12 +2,14 @@ package com.github.tvbox.osc.bbox.ui.fragment;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.DiffUtil;
 
 import com.github.tvbox.osc.bbox.R;
@@ -50,8 +52,11 @@ import org.jetbrains.annotations.NotNull;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import okhttp3.HttpUrl;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
@@ -319,11 +324,22 @@ public class ModelSettingFragment extends BaseLazyFragment {
         });
 
         findViewById(R.id.llApiHistory).setOnClickListener( v -> {
-            ArrayList<String> history = Hawk.get(HawkConfig.API_HISTORY, new ArrayList<>());
+            ArrayList<String> apiHistory = Hawk.get(HawkConfig.API_HISTORY, new ArrayList<>());
             ArrayList<String> nameHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
             HashMap<String, String> map = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
 
-            history.addAll(nameHistory);
+            apiHistory.addAll(nameHistory);
+
+
+            Set<String> set = new HashSet<>();
+            List<String> history = new ArrayList<>();
+
+            for (String cd : apiHistory) {
+                if (set.add(cd)) {
+                    history.add(cd);
+                }
+            }
+
             if (history.isEmpty())
                 return;
             String current = Hawk.get(HawkConfig.API_NAME, "");
@@ -343,6 +359,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
 
                     dialog.dismiss();
                 }
+
 
                 @Override
                 public void del(String value, ArrayList<String> data) {
