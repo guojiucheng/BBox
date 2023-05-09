@@ -127,7 +127,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
         tvHomeRec.setText(getHomeRecName(Hawk.get(HawkConfig.HOME_REC, 0)));
         tvHistoryNum.setText(HistoryHelper.getHistoryNumName(Hawk.get(HawkConfig.HISTORY_NUM, 0)));
         tvSearchView.setText(getSearchView(Hawk.get(HawkConfig.SEARCH_VIEW, 0)));
-        tvHomeApi.setText(ApiConfig.get().getHomeSourceBean().getName());
+        // tvHomeApi.setText(ApiConfig.get().getHomeSourceBean().getName());
         tvScale.setText(PlayerHelper.getScaleName(Hawk.get(HawkConfig.PLAY_SCALE, 0)));
         tvPlay.setText(PlayerHelper.getPlayerName(Hawk.get(HawkConfig.PLAY_TYPE, 0)));
         tvRender.setText(PlayerHelper.getRenderName(Hawk.get(HawkConfig.PLAY_RENDER, 0)));
@@ -208,7 +208,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 ((BaseActivity) requireActivity()).changeWallpaper(true);
             }
         });
-        findViewById(R.id.llHomeApi).setOnClickListener(new View.OnClickListener() {
+        /* findViewById(R.id.llHomeApi).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
@@ -248,7 +248,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
                     dialog.show();
                 }
             }
-        });
+        }); */
         findViewById(R.id.llDns).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -293,6 +293,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 EventBus.getDefault().register(dialog);
                 dialog.setOnListener(url -> {
                     Hawk.put(HawkConfig.API_URL, url);
+                    tvHomeApi.setText(url);
 //                        tvApi.setText(api);
                 });
                 dialog.setOnDismissListener(dialog1 -> {
@@ -356,6 +357,8 @@ public class ModelSettingFragment extends BaseLazyFragment {
                         Hawk.put(HawkConfig.API_URL, map.get(value));
                     else
                         Hawk.put(HawkConfig.API_URL, value);
+
+                    tvHomeApi.setText(value);
 
                     dialog.dismiss();
                 }
