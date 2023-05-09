@@ -81,7 +81,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="首页数据源"
+                    android:text="配置源名"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/ts_24" />
 
