@@ -180,7 +180,7 @@ public class GridFragment extends BaseLazyFragment {
 
             @Override
             public void onItemClick(TvRecyclerView parent, View itemView, int position) {
-
+                itemView.animate().scaleX(0.9f).scaleY(0.9f).setDuration(300).setInterpolator(new BounceInterpolator()).start();
             }
         });
         mGridView.setOnInBorderKeyEventListener(new TvRecyclerView.OnInBorderKeyEventListener() {
