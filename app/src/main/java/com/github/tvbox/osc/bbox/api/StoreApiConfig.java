@@ -59,7 +59,7 @@ public class StoreApiConfig {
         String storeName = Hawk.get(HawkConfig.STORE_API_NAME, "爬的别人的仓库");
         if (storeMap.isEmpty()) {
             Toast.makeText(context, "仓库为空，使用默认仓库", Toast.LENGTH_SHORT).show();
-            storeMap.put("爬的别人的仓库", "https://raw.iqiq.io/mlabalabala/TVResource/main/storeHouse.json");
+            storeMap.put("爬的别人的仓库", "https://raw.iqiq.io/mlabalabala/TVResource/main/boxCfg/storeHouse.json");
         }
 
         String storeUrl = storeMap.get(storeName);

@@ -314,11 +314,6 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 Hawk.put(HawkConfig.STORE_API_NAME, name);
             });
             storeApiDialog.setOnDismissListener(dialog -> {
-                try {
-                    StoreApiConfig.get().Subscribe(this.getContext());
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
                 ((BaseActivity) mActivity).hideSysBar();
                 EventBus.getDefault().unregister(dialog);
             });

@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.github.tvbox.osc.bbox.R;
+import com.github.tvbox.osc.bbox.api.StoreApiConfig;
 import com.github.tvbox.osc.bbox.event.RefreshEvent;
 import com.github.tvbox.osc.bbox.server.ControlManager;
 import com.github.tvbox.osc.bbox.ui.adapter.ApiHistoryDialogAdapter;
@@ -88,6 +89,13 @@ public class StoreApiDialog extends BaseDialog {
 
                 Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, history);
                 Hawk.put(HawkConfig.STORE_API_MAP, map);
+            }
+            if (url.isEmpty() && name.isEmpty()) {
+                try {
+                    StoreApiConfig.get().Subscribe(this.getContext());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
             dismiss();
         });
