@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.thoughtworks.xstream:xstream:1.4.15">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/1fe575549a9fb8b0024c011d6b9b6ebb0ba00066/xstream-1.4.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/1fe575549a9fb8b0024c011d6b9b6ebb0ba00066/xstream-1.4.15.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/ba2eaddf20d642f4d4421460fbe9eda6ffd35d13/xstream-1.4.15-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/ba2eaddf20d642f4d4421460fbe9eda6ffd35d13/xstream-1.4.15-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/67a9cfd184764cd72c282765dc947866f605dacc/xstream-1.4.15-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.15/67a9cfd184764cd72c282765dc947866f605dacc/xstream-1.4.15-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

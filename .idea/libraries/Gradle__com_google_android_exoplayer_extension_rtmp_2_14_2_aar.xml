@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.exoplayer:extension-rtmp:2.14.2@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/61f80354b3e6d178e4f6c88bdcf4ac99/jetified-extension-rtmp-2.14.2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/61f80354b3e6d178e4f6c88bdcf4ac99/jetified-extension-rtmp-2.14.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/61f80354b3e6d178e4f6c88bdcf4ac99/jetified-extension-rtmp-2.14.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/61f80354b3e6d178e4f6c88bdcf4ac99/jetified-extension-rtmp-2.14.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.google.android.exoplayer/extension-rtmp/2.14.2/7b4755a65ad1207b015499b2a85fc492cde0a2d/extension-rtmp-2.14.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.google.android.exoplayer/extension-rtmp/2.14.2/7b4755a65ad1207b015499b2a85fc492cde0a2d/extension-rtmp-2.14.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

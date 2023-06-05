@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.getActivity:XXPermissions:13.6@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a5e35e6c6b992a9755103cd6136410b2/jetified-XXPermissions-13.6/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a5e35e6c6b992a9755103cd6136410b2/jetified-XXPermissions-13.6/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/3ea4006dc062648ea6dc50ecab47a6d4/jetified-XXPermissions-13.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/3ea4006dc062648ea6dc50ecab47a6d4/jetified-XXPermissions-13.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.github.getActivity/XXPermissions/13.6/a2ec784abfdd4beb7d601ea750672e3163b13bf1/XXPermissions-13.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.github.getActivity/XXPermissions/13.6/ff28aa92d34d236e39bec65697e8f2fd68bed740/XXPermissions-13.6-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

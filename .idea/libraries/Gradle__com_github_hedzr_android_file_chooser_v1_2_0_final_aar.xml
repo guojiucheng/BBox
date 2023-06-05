@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.hedzr:android-file-chooser:v1.2.0-final@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/res" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/res" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/c6e55ac5d0595ed9297528eff46debc4/jetified-android-file-chooser-v1.2.0-final/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.github.hedzr/android-file-chooser/v1.2.0-final/7570293e48ca2b74e7be1ac6131d94ff6efb7853/android-file-chooser-v1.2.0-final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.github.hedzr/android-file-chooser/v1.2.0-final/7570293e48ca2b74e7be1ac6131d94ff6efb7853/android-file-chooser-v1.2.0-final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

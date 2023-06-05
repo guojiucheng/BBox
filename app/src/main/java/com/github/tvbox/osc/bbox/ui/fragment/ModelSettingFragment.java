@@ -293,7 +293,6 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 ApiDialog dialog = new ApiDialog(mActivity);
                 EventBus.getDefault().register(dialog);
                 dialog.setOnListener(url -> {
-                    Hawk.put(HawkConfig.API_URL, url);
                     tvHomeApi.setText(url);
 //                        tvApi.setText(api);
                 });
@@ -321,21 +320,22 @@ public class ModelSettingFragment extends BaseLazyFragment {
         });
 
         findViewById(R.id.llApiHistory).setOnClickListener( v -> {
-            ArrayList<String> apiHistory = Hawk.get(HawkConfig.API_HISTORY, new ArrayList<>());
-            ArrayList<String> nameHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
+            // ArrayList<String> apiHistory = Hawk.get(HawkConfig.API_HISTORY, new ArrayList<>());
+            // ArrayList<String> nameHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
+            ArrayList<String> history = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
             HashMap<String, String> map = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
 
-            apiHistory.addAll(nameHistory);
-
-
-            Set<String> set = new HashSet<>();
-            List<String> history = new ArrayList<>();
-
-            for (String cd : apiHistory) {
-                if (set.add(cd)) {
-                    history.add(cd);
-                }
-            }
+            // apiHistory.addAll(nameHistory);
+            //
+            //
+            // Set<String> set = new HashSet<>();
+            // List<String> history = new ArrayList<>();
+            //
+            // for (String cd : apiHistory) {
+            //     if (set.add(cd)) {
+            //         history.add(cd);
+            //     }
+            // }
 
             if (history.isEmpty())
                 return;

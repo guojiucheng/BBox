@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.kingja.loadsir:loadsir:1.3.8@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/79fa77875a5c7608ec0ae2dcea3edf8f/jetified-loadsir-1.3.8/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.kingja.loadsir/loadsir/1.3.8/61776c1a3aa1078aafbefe789d6568dd4cd52532/loadsir-1.3.8-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.kingja.loadsir/loadsir/1.3.8/61776c1a3aa1078aafbefe789d6568dd4cd52532/loadsir-1.3.8-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.kingja.loadsir/loadsir/1.3.8/7761b72f4aba8ee5a5bbd67d2de5b6bd5147c0db/loadsir-1.3.8-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.kingja.loadsir/loadsir/1.3.8/7761b72f4aba8ee5a5bbd67d2de5b6bd5147c0db/loadsir-1.3.8-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

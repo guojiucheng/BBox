@@ -90,7 +90,7 @@ public class StoreApiDialog extends BaseDialog {
                 Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, history);
                 Hawk.put(HawkConfig.STORE_API_MAP, map);
             }
-            if (url.isEmpty() && name.isEmpty()) {
+            else {
                 try {
                     StoreApiConfig.get().Subscribe(this.getContext());
                 } catch (Exception e) {

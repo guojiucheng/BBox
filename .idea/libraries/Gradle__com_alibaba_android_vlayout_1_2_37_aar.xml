@@ -1,18 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.alibaba.android:vlayout:1.2.37@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/69aef59e4c18e3bc4fb55b8cb65dc2d4/jetified-vlayout-1.2.37/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/ee9d97c9d98c819b20ba530cb99bceed/jetified-vlayout-1.2.37/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/69aef59e4c18e3bc4fb55b8cb65dc2d4/jetified-vlayout-1.2.37/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/69aef59e4c18e3bc4fb55b8cb65dc2d4/jetified-vlayout-1.2.37/res" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/69aef59e4c18e3bc4fb55b8cb65dc2d4/jetified-vlayout-1.2.37/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/ee9d97c9d98c819b20ba530cb99bceed/jetified-vlayout-1.2.37/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/ee9d97c9d98c819b20ba530cb99bceed/jetified-vlayout-1.2.37/res" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/ee9d97c9d98c819b20ba530cb99bceed/jetified-vlayout-1.2.37/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.37/9045c5acef6920819d59df63efc770b3e8cc3ab0/vlayout-1.2.37-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.37/9045c5acef6920819d59df63efc770b3e8cc3ab0/vlayout-1.2.37-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.37/7880709c01f0564992e859fbaeb6c686c762120/vlayout-1.2.37-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.37/7880709c01f0564992e859fbaeb6c686c762120/vlayout-1.2.37-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

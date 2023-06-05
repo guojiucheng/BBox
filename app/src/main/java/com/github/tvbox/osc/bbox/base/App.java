@@ -65,8 +65,8 @@ public class App extends MultiDexApplication {
 
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
-        putDefault(HawkConfig.API_URL, defaultApi);
-        putDefault(HawkConfig.API_HISTORY, defaultApiHistory);
+        // putDefault(HawkConfig.API_URL, defaultApi);
+        // putDefault(HawkConfig.API_HISTORY, defaultApiHistory);
         // putDefault(HawkConfig.API_NAME, defaultApiName);
         // putDefault(HawkConfig.API_MAP, defaultApiMap);
 

@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: me.jessyan:autosize:1.2.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a11d0c456cf28c66590d03230d892446/jetified-autosize-1.2.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a11d0c456cf28c66590d03230d892446/jetified-autosize-1.2.1/res" />
-      <root url="file://$PROJECT_DIR$/../../Projects/MavenRepository/caches/transforms-2/files-2.1/a11d0c456cf28c66590d03230d892446/jetified-autosize-1.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/85cdecf4ac5307be35831c074af12c1b/jetified-autosize-1.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/85cdecf4ac5307be35831c074af12c1b/jetified-autosize-1.2.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/transforms-2/files-2.1/85cdecf4ac5307be35831c074af12c1b/jetified-autosize-1.2.1/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/me.jessyan/autosize/1.2.1/65b5e43dee89ee4f0a16a6f085462e0e138ee1e5/autosize-1.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/me.jessyan/autosize/1.2.1/65b5e43dee89ee4f0a16a6f085462e0e138ee1e5/autosize-1.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Projects/MavenRepository/caches/modules-2/files-2.1/me.jessyan/autosize/1.2.1/df5d9b5ef5a0fc80d51d5822a1f17efbd6580fc5/autosize-1.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../module/gradle-6.7.1/bin/caches/modules-2/files-2.1/me.jessyan/autosize/1.2.1/df5d9b5ef5a0fc80d51d5822a1f17efbd6580fc5/autosize-1.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
