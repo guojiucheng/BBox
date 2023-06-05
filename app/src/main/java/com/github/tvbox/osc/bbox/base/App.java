@@ -61,7 +61,7 @@ public class App extends MultiDexApplication {
         defaultApiMap.put(defaultApiName, defaultApi);
 
         ArrayList<String> defaultApiHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
-        defaultApiHistory.add(defaultApi);
+        defaultApiHistory.add(defaultApiName);
 
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
