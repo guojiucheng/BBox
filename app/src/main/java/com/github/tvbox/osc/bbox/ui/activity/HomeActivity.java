@@ -45,10 +45,7 @@ import com.github.tvbox.osc.bbox.ui.tv.widget.DefaultTransformer;
 import com.github.tvbox.osc.bbox.ui.tv.widget.FixedSpeedScroller;
 import com.github.tvbox.osc.bbox.ui.tv.widget.NoScrollViewPager;
 import com.github.tvbox.osc.bbox.ui.tv.widget.ViewObj;
-import com.github.tvbox.osc.bbox.util.AppManager;
-import com.github.tvbox.osc.bbox.util.DefaultConfig;
-import com.github.tvbox.osc.bbox.util.HawkConfig;
-import com.github.tvbox.osc.bbox.util.LOG;
+import com.github.tvbox.osc.bbox.util.*;
 import com.github.tvbox.osc.bbox.viewmodel.SourceViewModel;
 import com.orhanobut.hawk.Hawk;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
@@ -211,9 +208,11 @@ public class HomeActivity extends BaseActivity {
         tvName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dataInitOk = false;
-                jarInitOk = true;
-                showSiteSwitch();
+                // dataInitOk = false;
+                // jarInitOk = true;
+                // showSiteSwitch();
+                FastClickCheckUtil.check(v);
+                jumpActivity(AppsActivity.class);
             }
         });
         tvName.setOnLongClickListener(new View.OnLongClickListener() {

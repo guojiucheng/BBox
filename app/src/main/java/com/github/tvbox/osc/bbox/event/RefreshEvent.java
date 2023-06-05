@@ -21,6 +21,7 @@ public class RefreshEvent {
     public static final int TYPE_SUBTITLE_SIZE_CHANGE = 12;
     public static final int TYPE_FILTER_CHANGE = 13;
     public static final int TYPE_STORE_CONFIG_CHANGE = 14;
+    public static final int TYPE_APP_REFRESH = 15;
     public int type;
     public Object obj;
 

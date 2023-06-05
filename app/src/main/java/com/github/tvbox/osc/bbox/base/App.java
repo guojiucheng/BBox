@@ -15,6 +15,7 @@ import me.jessyan.autosize.AutoSizeConfig;
 import me.jessyan.autosize.unit.Subunits;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * @author pj567
@@ -53,22 +54,20 @@ public class App extends MultiDexApplication {
         // Hawk
         Hawk.init(this).build();
 
-        // String defaultApiName = "默认线路-欧哥爬虫线路";
-        String defaultApi =
-                "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2";
+        String defaultApiName = "默认线路-欧哥爬虫线路";
+        String defaultApi = "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2";
 
-        // HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
-        // defaultApiMap.put(defaultApiName, defaultApi);
+        HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
+        defaultApiMap.put(defaultApiName, defaultApi);
 
         ArrayList<String> defaultApiHistory = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
         defaultApiHistory.add(defaultApi);
 
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
-        // putDefault(HawkConfig.API_URL, defaultApi);
-        // putDefault(HawkConfig.API_HISTORY, defaultApiHistory);
-        // putDefault(HawkConfig.API_NAME, defaultApiName);
-        // putDefault(HawkConfig.API_MAP, defaultApiMap);
+        putDefault(HawkConfig.API_URL, defaultApi);
+        putDefault(HawkConfig.API_NAME, defaultApiName);
+        putDefault(HawkConfig.API_MAP, defaultApiMap);
 
         putDefault(HawkConfig.PLAY_TYPE, 1);
         putDefault(HawkConfig.HOME_REC, 1);

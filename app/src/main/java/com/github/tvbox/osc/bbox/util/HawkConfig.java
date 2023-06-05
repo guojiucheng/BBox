@@ -49,4 +49,6 @@ public class HawkConfig {
     public static final String STORE_API_NAME_HISTORY = "store_api_name_history";
     public static final String STORE_API_MAP = "store_api_map";
 
+    public static boolean hotVodDelete;
+
 }
