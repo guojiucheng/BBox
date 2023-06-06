@@ -109,6 +109,9 @@ public class StoreApiConfig {
         ArrayList<String> history = new ArrayList<>();
         HashMap<String, String> map = new HashMap<>();
 
+        history.add(Hawk.get(HawkConfig.API_NAME));
+        map.put(Hawk.get(HawkConfig.API_NAME), Hawk.get(HawkConfig.API_URL));
+
         JsonObject urlsObject = new Gson().fromJson(urlsJson, JsonObject.class);
 
         JsonArray urlsObjects = urlsObject.get("urls").getAsJsonArray();
