@@ -4,15 +4,16 @@
     <item android:state_focused="false"
           android:state_pressed="true" >
         <shape>
-            <corners android:radius="@dimen/vs_5" />
-            <stroke android:width="@dimen/vs_5" android:color="@color/color_FFFFFF" />
+            <corners android:radius="10mm" />
+            <stroke android:width="2mm" android:color="@color/color_FFFFFF" />
+            <solid android:color="@color/color_6C3D3D3D" />
         </shape>
     </item>
     <item android:state_focused="true">
         <shape>
-            <corners android:radius="@dimen/vs_5" />
-            <stroke android:width="@dimen/vs_5" android:color="@color/color_FFFFFF" />
-<!--            <solid android:color="@color/my_color" />-->
+            <corners android:radius="10mm" />
+            <stroke android:width="2mm" android:color="@color/color_FFFFFF" />
+            <solid android:color="@color/color_6C3D3D3D" />
         </shape>
     </item>
     <item android:state_focused="false">

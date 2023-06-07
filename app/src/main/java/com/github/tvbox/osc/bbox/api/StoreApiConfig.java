@@ -103,8 +103,8 @@ public class StoreApiConfig {
 
     private String MutiUrl(String urlsJson) {
 
-//        ArrayList<String> history = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
-//        HashMap<String, String> map = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
+        // ArrayList<String> history = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
+        // HashMap<String, String> map = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
 
         ArrayList<String> history = new ArrayList<>();
         HashMap<String, String> map = new HashMap<>();
