@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.animation.BounceInterpolator;
 import android.widget.LinearLayout;
 
+import android.widget.Toast;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.github.tvbox.osc.bbox.R;
 import com.github.tvbox.osc.bbox.api.ApiConfig;
@@ -25,6 +26,7 @@ import com.github.tvbox.osc.bbox.ui.activity.SettingActivity;
 import com.github.tvbox.osc.bbox.ui.adapter.HomeHotVodAdapter;
 import com.github.tvbox.osc.bbox.util.FastClickCheckUtil;
 import com.github.tvbox.osc.bbox.util.HawkConfig;
+import com.github.tvbox.osc.bbox.util.LOG;
 import com.github.tvbox.osc.bbox.util.UA;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

@@ -9,10 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/vs_50"
-                android:layout_marginTop="@dimen/vs_10"
-                android:layout_marginBottom="@dimen/vs_10"
-        android:paddingLeft="20mm"
-       >
+        android:layout_marginTop="@dimen/vs_10"
+        android:layout_marginBottom="@dimen/vs_10"
+        android:paddingLeft="20mm" >
 
         <TextView
             android:id="@+id/mSearchTitle"

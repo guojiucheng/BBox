@@ -71,7 +71,7 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.API_MAP, defaultApiMap);
 
         putDefault(HawkConfig.PLAY_TYPE, 1);
-        putDefault(HawkConfig.HOME_REC, 1);
+        // putDefault(HawkConfig.HOME_REC, 1); //首页多行
         putDefault(HawkConfig.IJK_CODEC, "硬解码");
         putDefault(HawkConfig.HOME_REC_STYLE, true);
     }
