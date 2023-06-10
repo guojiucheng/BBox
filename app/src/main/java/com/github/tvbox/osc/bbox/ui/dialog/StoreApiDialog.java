@@ -77,17 +77,11 @@ public class StoreApiDialog extends BaseDialog {
             String name = inputStoreApiName.getText().toString().trim();
             String url = inputStoreApiUrl.getText().toString().trim();
             if (!url.isEmpty() && !name.isEmpty()) {
-                ArrayList<String> history = Hawk.get(HawkConfig.STORE_API_NAME_HISTORY, new ArrayList<>());
                 if (!map.containsKey(name))
                     map.put(name, url);
-                if (!history.contains(name))
-                    history.add(0, name);
-                if (history.size() > 30)
-                    history.remove(30);
 
                 listener.onchange(name);
 
-                Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, history);
                 Hawk.put(HawkConfig.STORE_API_MAP, map);
             }
             try {
