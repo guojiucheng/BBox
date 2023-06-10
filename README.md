@@ -11,5 +11,7 @@
 #### https://github.com/takagen99/Box
 TVBox 简易修改 多源版本
 
+增改的功能不具体介绍  自行摸索 @.@
+
 
 #### Actions中有生成脚本！！！

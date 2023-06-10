@@ -209,47 +209,40 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 ((BaseActivity) requireActivity()).changeWallpaper(true);
             }
         });
-        /* findViewById(R.id.llHomeApi).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FastClickCheckUtil.check(v);
-                List<SourceBean> sites = ApiConfig.get().getSourceBeanList();
-                if (sites.size() > 0) {
-                    SelectDialog<SourceBean> dialog = new SelectDialog<>(mActivity);
-                    dialog.setTip("请选择首页数据源");
-                    dialog.setAdapter(new SelectDialogAdapter.SelectDialogInterface<SourceBean>() {
-                        @Override
-                        public void click(SourceBean value, int pos) {
-                            ApiConfig.get().setSourceBean(value);
-                            tvHomeApi.setText(ApiConfig.get().getHomeSourceBean().getName());
+        findViewById(R.id.llHomeApi).setOnClickListener( v -> {
+            ArrayList<String> history = Hawk.get(HawkConfig.API_NAME_HISTORY, new ArrayList<>());
+            HashMap<String, String> map = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
 
-                            Intent intent =new Intent(mContext, HomeActivity.class);
-                            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                            Bundle bundle = new Bundle();
-                            bundle.putBoolean("useCache", true);
-                            intent.putExtras(bundle);
-                            startActivity(intent);
-                        }
+            if (history.isEmpty())
+                return;
+            String current = Hawk.get(HawkConfig.API_NAME, "");
+            int idx = 0;
+            if (history.contains(current))
+                idx = history.indexOf(current);
+            ApiHistoryDialog dialog = new ApiHistoryDialog(getContext());
+            dialog.setTip("历史配置列表");
+            dialog.setAdapter(new ApiHistoryDialogAdapter.SelectDialogInterface() {
+                @Override
+                public void click(String value) {
+                    Hawk.put(HawkConfig.API_NAME, value);
+                    if (map.containsKey(value))
+                        Hawk.put(HawkConfig.API_URL, map.get(value));
+                    else
+                        Hawk.put(HawkConfig.API_URL, value);
 
-                        @Override
-                        public String getDisplay(SourceBean val) {
-                            return val.getName();
-                        }
-                    }, new DiffUtil.ItemCallback<SourceBean>() {
-                        @Override
-                        public boolean areItemsTheSame(@NonNull @NotNull SourceBean oldItem, @NonNull @NotNull SourceBean newItem) {
-                            return oldItem == newItem;
-                        }
+                    tvHomeApi.setText(value);
 
-                        @Override
-                        public boolean areContentsTheSame(@NonNull @NotNull SourceBean oldItem, @NonNull @NotNull SourceBean newItem) {
-                            return oldItem.getKey().equals(newItem.getKey());
-                        }
-                    }, sites, sites.indexOf(ApiConfig.get().getHomeSourceBean()));
-                    dialog.show();
+                    dialog.dismiss();
                 }
-            }
-        }); */
+
+
+                @Override
+                public void del(String value, ArrayList<String> data) {
+                    Hawk.put(HawkConfig.API_NAME_HISTORY, data);
+                }
+            }, history, idx);
+            dialog.show();
+        });
         findViewById(R.id.llDns).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -18,6 +18,8 @@ import com.orhanobut.hawk.Hawk;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import static com.github.tvbox.osc.bbox.ui.activity.LivePlayActivity.context;
+
 public class StoreApiConfig {
     private static StoreApiConfig instance;
 
@@ -53,14 +55,22 @@ public class StoreApiConfig {
 
     public void Subscribe(Context context) {
 
-        Toast.makeText(context, "开始获取订阅", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "开始获取订阅，网络慢的话可能需要较长时间！！！", Toast.LENGTH_SHORT).show();
 
         // 获取多仓地址
         HashMap<String, String> storeMap = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
+        ArrayList<String> storeNameHistory = Hawk.get(HawkConfig.STORE_API_NAME_HISTORY, new ArrayList<>());
         String storeName = Hawk.get(HawkConfig.STORE_API_NAME, "爬的别人的仓库");
         if (storeMap.isEmpty()) {
             Toast.makeText(context, "仓库为空，使用默认仓库", Toast.LENGTH_SHORT).show();
-            storeMap.put("爬的别人的仓库", "https://raw.iqiq.io/mlabalabala/TVResource/main/boxCfg/storeHouse.json");
+            String name = "爬的别人的仓库";
+            String sotreApi = "https://cdn.jsdelivr.net/gh/mlabalabala/TVResource@main/boxCfg/ori_source.json";
+            storeMap.put(name, sotreApi);
+            storeNameHistory.add(name);
+            Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, storeNameHistory);
+            Hawk.put(HawkConfig.STORE_API_NAME, name);
+            Hawk.put(HawkConfig.STORE_API_MAP, storeMap);
+            Hawk.put(HawkConfig.STORE_API, sotreApi);
         }
 
         String storeUrl = storeMap.get(storeName);
@@ -74,21 +84,52 @@ public class StoreApiConfig {
 
             if (null == json.get("urls")) {
                 // 仓库链接，先获取多源，再获取多配置
-                // 只获取仓库的第一个仓库
+
+                HashMap<String, String> map = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
+                ArrayList<String> history = Hawk.get(HawkConfig.STORE_API_NAME_HISTORY, new ArrayList<>());
 
                 JsonObject infoJson = new Gson().fromJson(sourceJson, JsonObject.class);
-                JsonObject storeHouse = infoJson.get("storeHouse").getAsJsonArray().get(0).getAsJsonObject();
+                JsonArray storeHouses = infoJson.get("storeHouse").getAsJsonArray();
+                JsonObject defStoreHouse = storeHouses.get(0).getAsJsonObject();
 
-                String sourceName = storeHouse.get("sourceName").getAsString();
-                String sourceUrl = storeHouse.get("sourceUrl").getAsString();
+                // 多仓线路作为历史添加
+                // 默认添加30条，多出的直接放弃
+                for(int i=0; i<storeHouses.size(); i++){
 
-                Toast.makeText(context, sourceName, Toast.LENGTH_SHORT).show();
+                    JsonObject storeHouse = infoJson.get("storeHouse").getAsJsonArray().get(i).getAsJsonObject();
 
-                // 获取单仓中的配置线路
-                StoreApiConfig.get().MyRequest( sourceUrl, urlsJson -> {
-                    String result = MutiUrl(urlsJson);
-                    Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
-                });
+                    String sourceName = storeHouse.get("sourceName").getAsString();
+                    String sourceUrl = storeHouse.get("sourceUrl").getAsString();
+
+                    if (!map.containsValue(sourceUrl)){
+                        map.put(sourceName, sourceUrl);
+                        history.add(sourceName);
+                    }
+                    // if (history.size() > 30)
+                    //     // history.remove(30);
+                    //     break;
+                    if (0==i){
+
+                        String name = defStoreHouse.get("sourceName").getAsString();
+                        String url = defStoreHouse.get("sourceUrl").getAsString();
+                        Toast.makeText(context, name, Toast.LENGTH_SHORT).show();
+
+                        Hawk.put(HawkConfig.STORE_API, url);
+                        Hawk.put(HawkConfig.STORE_API_NAME, name);
+
+                        // 配置默认配置线路
+                        StoreApiConfig.get().MyRequest( url, urlsJson -> {
+                            String result = MutiUrl(urlsJson);
+                            Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
+                        });
+                    }
+
+
+                }
+                Toast.makeText(context, "多仓订阅结束，到多源历史中切换！！！", Toast.LENGTH_SHORT).show();
+
+                Hawk.put(HawkConfig.STORE_API_MAP, map);
+                Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, history);
             }
             else {
                 // 单源链接，直接请求
@@ -113,6 +154,9 @@ public class StoreApiConfig {
         map.put(Hawk.get(HawkConfig.API_NAME), Hawk.get(HawkConfig.API_URL));
 
         JsonObject urlsObject = new Gson().fromJson(urlsJson, JsonObject.class);
+
+        if(null == urlsObject.get("urls"))
+            return "订阅出错，失败！！！";
 
         JsonArray urlsObjects = urlsObject.get("urls").getAsJsonArray();
 

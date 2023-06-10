@@ -54,8 +54,8 @@ public class App extends MultiDexApplication {
         // Hawk
         Hawk.init(this).build();
 
-        String defaultApiName = "默认线路-欧哥爬虫线路";
-        String defaultApi = "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2";
+        String defaultApiName = "默认-自备份线路";
+        String defaultApi = "https://cdn.jsdelivr.net/gh/mlabalabala/TVResource@main/boxCfg/default";
 
         HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
         defaultApiMap.put(defaultApiName, defaultApi);
@@ -71,9 +71,9 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.API_MAP, defaultApiMap);
 
         putDefault(HawkConfig.PLAY_TYPE, 1);
-        // putDefault(HawkConfig.HOME_REC, 1); //首页多行
+        putDefault(HawkConfig.HOME_REC, 1);
         putDefault(HawkConfig.IJK_CODEC, "硬解码");
-        putDefault(HawkConfig.HOME_REC_STYLE, true);
+        putDefault(HawkConfig.HOME_REC_STYLE, false);//首页多行
     }
 
     private void putDefault(String key, Object value) {
