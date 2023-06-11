@@ -133,8 +133,9 @@ public class StoreApiConfig {
 
                 String result = MutiUrl(sourceJson);
                 Toast.makeText(context, "单源链接，" + result, Toast.LENGTH_SHORT).show();
-                if(!storeNameHistory.contains(storeUrl)){
-                    storeNameHistory.add(0, storeUrl);
+                String currentStoreName = Hawk.get(HawkConfig.STORE_API_NAME, "");
+                if(!storeNameHistory.contains(currentStoreName)){
+                    storeNameHistory.add(0, currentStoreName);
                 }
 
             }
