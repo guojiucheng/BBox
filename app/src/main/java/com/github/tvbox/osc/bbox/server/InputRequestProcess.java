@@ -46,7 +46,7 @@ public class InputRequestProcess implements RequestProcess {
                             break;
                         }
                         case "store": {
-                            mDataReceiver.onStoreReceived(params.get("url").trim(), params.get("name").trim());
+                            mDataReceiver.onStoreReceived(params.get("url").trim());
                             break;
                         }
                         case "push": {
