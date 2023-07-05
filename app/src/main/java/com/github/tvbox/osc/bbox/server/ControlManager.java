@@ -80,11 +80,8 @@ public class ControlManager {
                 }
 
                 @Override
-                public void onStoreReceived(String url, String name) {
-                    Map<String, String> map = new HashMap<>();
-                    map.put("name", name);
-                    map.put("url", url);
-                    EventBus.getDefault().post(new RefreshEvent(RefreshEvent.TYPE_STORE_CONFIG_CHANGE, map));
+                public void onStoreReceived(String url) {
+                    EventBus.getDefault().post(new RefreshEvent(RefreshEvent.TYPE_STORE_CONFIG_CHANGE, url));
                 }
 
                 @Override

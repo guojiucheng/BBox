@@ -1,6 +1,7 @@
 package com.github.tvbox.osc.bbox.api;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.github.tvbox.osc.bbox.ui.dialog.StoreApiDialog;
@@ -61,6 +62,7 @@ public class StoreApiConfig {
         HashMap<String, String> storeMap = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
         ArrayList<String> storeNameHistory = Hawk.get(HawkConfig.STORE_API_NAME_HISTORY, new ArrayList<>());
         String storeName = Hawk.get(HawkConfig.STORE_API_NAME, "爬的别人的仓库");
+
         if (storeMap.isEmpty()) {
             Toast.makeText(context, "仓库为空，使用默认仓库", Toast.LENGTH_SHORT).show();
             String name = "爬的别人的仓库";
@@ -85,9 +87,6 @@ public class StoreApiConfig {
             if (null == json.get("urls")) {
                 // 仓库链接，先获取多源，再获取多配置
 
-                HashMap<String, String> map = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
-                ArrayList<String> history = Hawk.get(HawkConfig.STORE_API_NAME_HISTORY, new ArrayList<>());
-
                 JsonObject infoJson = new Gson().fromJson(sourceJson, JsonObject.class);
                 JsonArray storeHouses = infoJson.get("storeHouse").getAsJsonArray();
                 JsonObject defStoreHouse = storeHouses.get(0).getAsJsonObject();
@@ -101,9 +100,9 @@ public class StoreApiConfig {
                     String sourceName = storeHouse.get("sourceName").getAsString();
                     String sourceUrl = storeHouse.get("sourceUrl").getAsString();
 
-                    if (!map.containsValue(sourceUrl)){
-                        map.put(sourceName, sourceUrl);
-                        history.add(sourceName);
+                    if (!storeMap.containsValue(sourceUrl)){
+                        storeMap.put(sourceName, sourceUrl);
+                        storeNameHistory.add(sourceName);
                     }
                     // if (history.size() > 30)
                     //     // history.remove(30);
@@ -127,9 +126,6 @@ public class StoreApiConfig {
 
                 }
                 Toast.makeText(context, "多仓订阅结束，到多源历史中切换！！！", Toast.LENGTH_SHORT).show();
-
-                Hawk.put(HawkConfig.STORE_API_MAP, map);
-                Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, history);
             }
             else {
                 // 单源链接，直接请求
@@ -137,7 +133,15 @@ public class StoreApiConfig {
 
                 String result = MutiUrl(sourceJson);
                 Toast.makeText(context, "单源链接，" + result, Toast.LENGTH_SHORT).show();
+                String currentStoreName = Hawk.get(HawkConfig.STORE_API_NAME, "");
+                if(!storeNameHistory.contains(currentStoreName)){
+                    storeNameHistory.add(0, currentStoreName);
+                }
+
             }
+
+            Hawk.put(HawkConfig.STORE_API_MAP, storeMap);
+            Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, storeNameHistory);
         });
 
     }
@@ -165,8 +169,10 @@ public class StoreApiConfig {
             JsonObject obj = element.getAsJsonObject();
             String name = obj.get("name").getAsString();
             String url = obj.get("url").getAsString();
-            history.add(name);
-            map.put(name, url);
+            if(!map.containsValue(url)){
+                history.add(name);
+                map.put(name, url);
+            }
         }
 //        Hawk.put(HawkConfig.API_NAME, history.get(0));
 //        Hawk.put(HawkConfig.API_URL, map.get(history.get(0)));

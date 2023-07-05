@@ -11,7 +11,7 @@ function push() {
 }
 
 function store() {
-    doAction('store', { name: $('#diy_store_name').val(), url: $('#diy_store_url').val() });
+    doAction('store', { url: $('#diy_store_url').val() });
 }
 
 function doAction(action, kv) {

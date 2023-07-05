@@ -45,15 +45,13 @@ import me.jessyan.autosize.utils.AutoSizeUtils;
 public class StoreApiDialog extends BaseDialog {
     private final ImageView ivQRCode;
     private final TextView tvAddress;
-    private EditText inputStoreApiName;
+    // private EditText inputStoreApiName;
     private EditText inputStoreApiUrl;
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void refresh(RefreshEvent event) {
         if (event.type == RefreshEvent.TYPE_STORE_CONFIG_CHANGE) {
-            HashMap<String, String> map = (HashMap) event.obj;
-            inputStoreApiName.setText(map.get("name"));
-            inputStoreApiUrl.setText(map.get("url"));
+            inputStoreApiUrl.setText((String) event.obj);
         }
     }
 
@@ -63,26 +61,28 @@ public class StoreApiDialog extends BaseDialog {
         setCanceledOnTouchOutside(false);
         ivQRCode = findViewById(R.id.ivQRCode);
         tvAddress = findViewById(R.id.tvAddress);
-        inputStoreApiName = findViewById(R.id.inputStoreApiName);
+        // inputStoreApiName = findViewById(R.id.inputStoreApiName);
         inputStoreApiUrl = findViewById(R.id.inputStoreApiUrl);
 
         String storeApiName = Hawk.get(HawkConfig.STORE_API_NAME, "");
         HashMap<String, String> map = Hawk.get(HawkConfig.STORE_API_MAP, new HashMap<>());
         if (map.containsKey(storeApiName)){
-            inputStoreApiName.setText(storeApiName);
+            // inputStoreApiName.setText(storeApiName);
             inputStoreApiUrl.setText(map.get(storeApiName));
         }
 
         findViewById(R.id.inputSubmit).setOnClickListener(v -> {
-            String name = inputStoreApiName.getText().toString().trim();
+            // String name = inputStoreApiName.getText().toString().trim();
             String url = inputStoreApiUrl.getText().toString().trim();
-            if (!url.isEmpty() && !name.isEmpty()) {
-                if (!map.containsKey(name))
-                    map.put(name, url);
 
-                listener.onchange(name);
+            if (!url.isEmpty()) {
+                if (!map.containsValue(url))
+                    map.put(url, url);
+
+                listener.onchange(url);
 
                 Hawk.put(HawkConfig.STORE_API_MAP, map);
+                Hawk.put(HawkConfig.STORE_API_NAME, url);
             }
             try {
                 StoreApiConfig.get().Subscribe(this.getContext());
