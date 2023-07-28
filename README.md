@@ -14,9 +14,9 @@ TVBox 简易修改 多源版本
 增改的功能不具体介绍  自行摸索 @.@
 
 
-默认线路位置 ```com/github/tvbox/osc/bbox/base/App.java``` 修改变量 defaultApi 即可
-默认使用 ```cdn.jsdelivr.net``` 加速访问自建的仓库，也可以选择 ```raw.iqiq.io``` 等
-有需求的可以自行修改（不过建议改自建的仓库，改其他网络线路可能存在如果线路失效需重新改代码重新生成比较麻烦）
+默认线路位置 ```com/github/tvbox/osc/bbox/base/App.java```<br/>修改变量 defaultApi 即可
+<br/>默认使用 ```cdn.jsdelivr.net``` 加速访问自建的仓库，也可以选择 ```raw.iqiq.io``` 等
+<br/>有需求的可以自行修改（不过建议改自建的仓库，改其他网络线路可能存在如果线路失效需重新改代码重新生成比较麻烦）
 
 
 
