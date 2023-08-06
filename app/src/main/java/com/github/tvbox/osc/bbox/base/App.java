@@ -55,7 +55,7 @@ public class App extends MultiDexApplication {
         Hawk.init(this).build();
 
         String defaultApiName = "默认-自备份线路";
-        String defaultApi = "https://gitee.com/mlabalabala/TVResource/raw/main/boxCfg/default";
+        String defaultApi = "https://gitlab.com/lbbllbbl/TVResource/raw/main/boxCfg/default";
 
         HashMap<String, String> defaultApiMap = Hawk.get(HawkConfig.API_MAP, new HashMap<>());
         defaultApiMap.put(defaultApiName, defaultApi);
