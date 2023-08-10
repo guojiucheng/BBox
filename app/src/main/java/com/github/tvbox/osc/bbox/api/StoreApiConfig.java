@@ -66,7 +66,7 @@ public class StoreApiConfig {
         if (storeMap.isEmpty()) {
             Toast.makeText(context, "仓库为空，使用默认仓库", Toast.LENGTH_SHORT).show();
             String name = "爬的别人的仓库";
-            String sotreApi = "https://cdn.jsdelivr.net/gh/mlabalabala/TVResource@main/boxCfg/ori_source.json";
+            String sotreApi = "https://raw.githubusercontent.com/mlabalabala/TVResource/main/boxCfg/ori_source.json";
             storeMap.put(name, sotreApi);
             storeNameHistory.add(name);
             Hawk.put(HawkConfig.STORE_API_NAME_HISTORY, storeNameHistory);
